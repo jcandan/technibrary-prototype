@@ -13,4 +13,9 @@ gulp.task('bower', function() { 
          .pipe(gulp.dest(config.bowerDir)) 
 });
 
-gulp.task('default', ['bower']);
+gulp.task('icons', function() { 
+    return gulp.src(config.bowerDir + '/font-awesome/fonts/**.*') 
+        .pipe(gulp.dest('./public/assets/fonts')); 
+});
+
+gulp.task('default', ['bower', 'icons']);
