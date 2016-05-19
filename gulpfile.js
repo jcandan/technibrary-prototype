@@ -1,6 +1,6 @@
-var gulp = require('gulp'),     
-    sass = require('gulp-sass') 
-    notify = require("gulp-notify") 
+var gulp = require('gulp'),
+    sass = require('gulp-sass'),
+    notify = require("gulp-notify"),
     bower = require('gulp-bower');
 
 var config = {
