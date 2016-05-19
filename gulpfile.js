@@ -4,18 +4,18 @@ var gulp = require('gulp'),
     bower = require('gulp-bower');
 
 var config = {
-     sassPath: './resources/sass',
-     bowerDir: './bower_components' 
+    sassPath: './resources/sass',
+    bowerDir: './bower_components'
 }
 
-gulp.task('bower', function() { 
+gulp.task('bower', function() {
     return bower()
-         .pipe(gulp.dest(config.bowerDir)) 
+        .pipe(gulp.dest(config.bowerDir))
 });
 
-gulp.task('icons', function() { 
-    return gulp.src(config.bowerDir + '/font-awesome/fonts/**.*') 
-        .pipe(gulp.dest('./public/assets/fonts')); 
+gulp.task('icons', function() {
+    return gulp.src(config.bowerDir + '/font-awesome/fonts/**.*')
+        .pipe(gulp.dest('./public/assets/fonts'));
 });
 
 gulp.task('default', ['bower', 'icons']);
