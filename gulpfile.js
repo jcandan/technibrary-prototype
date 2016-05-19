@@ -18,4 +18,20 @@ gulp.task('icons', function() {
         .pipe(gulp.dest('./public/assets/fonts'));
 });
 
-gulp.task('default', ['bower', 'icons']);
+gulp.task('css', function() {
+    return gulp.src(config.sassPath + '/style.scss')
+        .pipe(sass({
+            style: 'compressed',
+            includePaths: [
+                './resources/sass',
+                config.bowerDir + '/bootstrap-sass/assets/stylesheets',
+                config.bowerDir + '/font-awesome/scss',
+            ]
+        })
+           .on("error", notify.onError(function (error) {
+                return "Error: " + error.message;
+            })))
+        .pipe(gulp.dest('./public/assets/css'));
+});
+
+gulp.task('default', ['bower', 'icons', 'css']);
