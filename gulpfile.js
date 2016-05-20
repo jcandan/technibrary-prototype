@@ -34,4 +34,13 @@ gulp.task('css', function() {
         .pipe(gulp.dest('./public/assets/css'));
 });
 
-gulp.task('default', ['bower', 'icons', 'css']);
+gulp.task('js', function() {
+    return gulp.src([
+            'resources/js/*.js',
+            config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.min.js',
+            config.bowerDir + '/jquery/dist/jquery.min.js',
+        ])
+        .pipe(gulp.dest('./public/assets/js'));
+});
+
+gulp.task('default', ['bower', 'icons', 'css', 'js']);
