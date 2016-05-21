@@ -43,4 +43,12 @@ gulp.task('js', function() {
         .pipe(gulp.dest('./public/assets/js'));
 });
 
-gulp.task('default', ['bower', 'icons', 'css', 'js']);
+gulp.task('watch-css', function() {
+    gulp.watch(config.sassPath + '/**/*.scss', ['css'])
+});
+
+gulp.task('watch-js', function() {
+    gulp.watch('resources/js/*.js', ['js'])
+});
+
+gulp.task('default', ['bower', 'icons', 'css', 'js', 'watch-css', 'watch-js']);
