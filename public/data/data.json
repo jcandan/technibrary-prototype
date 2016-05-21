@@ -1,88 +1,119 @@
 {
-  "products": [
-    {
-      "id": "product_1",
+  "products": {
+    "product_1": {
       "name": "Product 1",
       "description": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
       "price": 4.49,
-      "features": [
-        {
-          "id": "feature_1",
+      "features": {
+        "feature_1": {
           "title": "Feature 1",
           "value": "TRUE"
         },
-        {
-          "id": "feature_2",
+        "feature_2": {
           "title": "Feature 2",
           "value": "FALSE"
         },
-        {
-          "id": "feature_3",
+        "feature_3": {
           "title": "Feature 3",
           "value": "TRUE"
         },
-        {
-          "id": "feature_4",
+        "feature_4": {
           "title": "Feature 4",
           "value": "FALSE"
         }
-      ]
+      }
     },
-    {
-      "id": "product_2",
+    "product_2": {
       "name": "Product 2",
       "description": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
-      "price": 5.49,
-      "features": [
-        {
-          "id": "feature_1",
+      "price": 4.49,
+      "features": {
+        "feature_1": {
           "title": "Feature 1",
           "value": "TRUE"
         },
-        {
-          "id": "feature_2",
+        "feature_2": {
           "title": "Feature 2",
           "value": "FALSE"
         },
-        {
-          "id": "feature_3",
+        "feature_3": {
           "title": "Feature 3",
           "value": "TRUE"
         },
-        {
-          "id": "feature_4",
+        "feature_4": {
           "title": "Feature 4",
           "value": "FALSE"
         }
-      ]
+      }
     },
-    {
-      "id": "product_3",
+    "product_3": {
       "name": "Product 3",
       "description": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
-      "price": 3.99,
-      "features": [
-        {
-          "id": "feature_1",
+      "price": 4.49,
+      "features": {
+        "feature_1": {
           "title": "Feature 1",
           "value": "TRUE"
         },
-        {
-          "id": "feature_2",
+        "feature_2": {
           "title": "Feature 2",
           "value": "FALSE"
         },
-        {
-          "id": "feature_3",
+        "feature_3": {
           "title": "Feature 3",
           "value": "TRUE"
         },
-        {
-          "id": "feature_4",
+        "feature_4": {
           "title": "Feature 4",
           "value": "FALSE"
         }
-      ]
+      }
+    },
+    "product_4": {
+      "name": "Product 4",
+      "description": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
+      "price": 4.49,
+      "features": {
+        "feature_1": {
+          "title": "Feature 1",
+          "value": "TRUE"
+        },
+        "feature_2": {
+          "title": "Feature 2",
+          "value": "FALSE"
+        },
+        "feature_3": {
+          "title": "Feature 3",
+          "value": "TRUE"
+        },
+        "feature_4": {
+          "title": "Feature 4",
+          "value": "FALSE"
+        }
+      }
+    },
+    "product_5": {
+      "name": "Product 5",
+      "description": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
+      "price": 4.99,
+      "features": {
+        "feature_1": {
+          "title": "Feature 1",
+          "value": "FALSE"
+        },
+        "feature_2": {
+          "title": "Feature 2",
+          "value": "FALSE"
+        },
+        "feature_3": {
+          "title": "Feature 3",
+          "value": "TRUE"
+        },
+        "feature_4": {
+          "title": "Feature 4",
+          "value": "FALSE"
+        }
+      }
     }
-  ]
+  }
 }
