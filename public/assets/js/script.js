@@ -1,7 +1,7 @@
 jQuery(function($){
     var jqxhr = $.getJSON( "data/data.json", function(data) {
-        $.get("templates/product.tpl", function(tpl) {
-            var template = Handlebars.compile(tpl);
+        $.get("templates/product.hbs", function(hbs) {
+            var template = Handlebars.compile(hbs);
             $('#products').html(template(data));
         })
     })
