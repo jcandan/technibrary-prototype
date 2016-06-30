@@ -1,6 +1,6 @@
 jQuery(function($){
-    var jqxhr = $.getJSON( "data/data.json", function(data) {
-        $.get("templates/product.hbs", function(hbs) {
+    var jqxhr = $.getJSON( "assets/data/data.json", function(data) {
+        $.get("assets/templates/product.hbs", function(hbs) {
             var template = Handlebars.compile(hbs);
             $('#products').html(template(data));
         })
@@ -20,7 +20,7 @@ jQuery(function($){
                 products.push(all_products[val]);
             });
 
-            $.get("templates/comparison_table.hbs", function(hbs) {
+            $.get("assets/templates/comparison_table.hbs", function(hbs) {
               var template = Handlebars.compile(hbs);
               $('.modal-body').html(template(products));
             });
