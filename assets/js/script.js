@@ -13,6 +13,17 @@ jQuery(function($){
         var checked_values = $('input[name=compare]:checked').map(function() {
             return this.value;
         }).get();
-        console.log(checked_values);
+        jqxhr.complete(function(){
+            var all_products = jqxhr.responseJSON.products;
+            var products = [];
+            $.each(checked_values, function(key, val) {
+                products.push(all_products[val]);
+            });
+
+            $.get("templates/comparison_table.hbs", function(hbs) {
+              var template = Handlebars.compile(hbs);
+              $('.modal-body').html(template(products));
+            });
+        });
    });
 });
