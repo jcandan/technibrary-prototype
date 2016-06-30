@@ -15,7 +15,7 @@ gulp.task('bower', function() {
 
 gulp.task('icons', function() {
     return gulp.src(config.bowerDir + '/font-awesome/fonts/**.*')
-        .pipe(gulp.dest('./public/assets/fonts'));
+        .pipe(gulp.dest('./assets/fonts'));
 });
 
 gulp.task('css', function() {
@@ -31,7 +31,7 @@ gulp.task('css', function() {
            .on("error", notify.onError(function (error) {
                 return "Error: " + error.message;
             })))
-        .pipe(gulp.dest('./public/assets/css'));
+        .pipe(gulp.dest('./assets/css'));
 });
 
 gulp.task('js', function() {
@@ -41,7 +41,7 @@ gulp.task('js', function() {
             config.bowerDir + '/jquery/dist/jquery.min.js',
             config.bowerDir + '/handlebars/handlebars.min.js',
         ])
-        .pipe(gulp.dest('./public/assets/js'));
+        .pipe(gulp.dest('./assets/js'));
 });
 
 gulp.task('watch-css', function() {
