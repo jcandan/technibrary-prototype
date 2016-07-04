@@ -19,11 +19,10 @@ gulp.task('icons', function() {
 });
 
 gulp.task('css', function() {
-    return gulp.src(config.sassPath + '/style.scss')
+    return gulp.src(config.sassPath + '/**/*.scss')
         .pipe(sass({
             style: 'compressed',
             includePaths: [
-                './resources/sass',
                 config.bowerDir + '/bootstrap-sass/assets/stylesheets',
                 config.bowerDir + '/font-awesome/scss',
             ]
