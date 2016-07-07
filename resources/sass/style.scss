@@ -25,8 +25,17 @@ body {
   height: 100px;
 }
 
+.result-header {
+  position: relative;
+  .sort-actions {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
 /*
- * Products
+ * Results
  */
 .result-cards {
   hr {
