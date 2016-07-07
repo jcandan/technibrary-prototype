@@ -28,36 +28,41 @@ body {
 /*
  * Products
  */
-.card {
-  position: relative;
-  min-height: 200px;
-  .card-actions{
-    .result-buttons {
-      clear: both;
-      float: right;
-    }
+.result-cards {
+  hr {
+    border: 1px solid #ddd;
   }
-  .card-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    .card-content {
-      position: relative;
-      min-height: 200px;
-      h3.card-title {
-        width: 80%;
-      }
-      .pricing {
-        position: absolute;
-        bottom: 0;
-        left: 0;
+  .card {
+    position: relative;
+    min-height: 200px;
+    .card-actions{
+      .result-buttons {
+        clear: both;
+        float: right;
       }
     }
-  }
-  .pros-cons {
-    width: 240px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    .card-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      .card-content {
+        position: relative;
+        min-height: 200px;
+        h3.card-title {
+          width: 80%;
+        }
+        .pricing {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+      }
+    }
+    .pros-cons {
+      width: 240px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
   }
 }
