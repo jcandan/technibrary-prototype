@@ -8027,8 +8027,15 @@ body {
   width: 100%;
   height: 100px; }
 
+.result-header {
+  position: relative; }
+  .result-header .sort-actions {
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+
 /*
- * Products
+ * Results
  */
 .result-cards hr {
   border: 1px solid #ddd; }
