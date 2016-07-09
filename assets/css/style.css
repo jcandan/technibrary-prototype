@@ -8076,6 +8076,8 @@ body {
   .result-cards .card .card-actions .result-buttons {
     clear: both;
     float: right; }
+    .result-cards .card .card-actions .result-buttons .btn {
+      padding: 6px; }
   .result-cards .card .card-container {
     position: absolute;
     top: 0;
