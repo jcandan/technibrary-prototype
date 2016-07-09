@@ -8048,6 +8048,9 @@ body {
   .footer .footer-info {
     padding-top: 30px; }
 
+.sort-actions a {
+  font-weight: bold; }
+
 .result-header {
   position: relative; }
   .result-header .sort-actions {
