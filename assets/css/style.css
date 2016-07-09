@@ -8028,6 +8028,8 @@ body {
     padding: 55px 15px; }
   .navbar .nav > li > a {
     font-size: 18px; }
+    .navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
+      background-color: #9de3f0; }
 
 @media (min-width: 768px) {
   .navbar-nav > li > a {
