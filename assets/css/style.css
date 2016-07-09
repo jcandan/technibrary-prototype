@@ -8017,6 +8017,9 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 100px; }
 
+.form-control:focus {
+  border-color: #009ECA; }
+
 .navbar {
   background-color: #DFF6FA; }
   .navbar .navbar-brand {
