@@ -50,6 +50,9 @@ body {
   bottom: 0;
   width: 100%;
   height: $footer-height;
+  .footer-info {
+    padding-top: 30px;
+  }
 }
 
 .result-header {
