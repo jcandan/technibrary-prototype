@@ -89,6 +89,9 @@ body {
       .result-buttons {
         clear: both;
         float: right;
+        .btn {
+          padding: 6px;
+        }
       }
     }
     .card-container {
