@@ -20,13 +20,17 @@ body {
     font-size: 38px;
     line-height: 38px;
   }
-  background-color: #DFF6FA;
+  background-color: $navbar-background-color;
   .search-box {
     width: 350px;
     padding: 55px 15px
   }
   .nav > li > a {
     font-size: 18px;
+    &:hover,
+    &:focus {
+      background-color: $navbar-background-hover-color;
+    }
   }
 }
 
