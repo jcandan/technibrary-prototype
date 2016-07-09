@@ -14,6 +14,10 @@ body {
   margin-bottom: 100px;
 }
 
+.form-control:focus {
+  border-color: $brand-primary;
+}
+
 .navbar {
   .navbar-brand {
     padding-top: 62px;
