@@ -15,10 +15,25 @@ body {
 }
 
 .navbar {
+  .navbar-brand {
+    padding-top: 62px;
+    font-size: 38px;
+    line-height: 38px;
+  }
   background-color: #DFF6FA;
   .search-box {
     width: 250px;
-    padding-top: 10px
+    padding: 55px 15px
+  }
+  .nav > li > a {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 62px;
+    padding-bottom: 62px;
   }
 }
 .footer {
