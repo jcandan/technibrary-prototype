@@ -1,0 +1,14 @@
+{
+  "name": "facetedsearch",
+  "homepage": "https://github.com/eikes/facetedsearch",
+  "_release": "6f71d1262a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6f71d1262a999f958575fd20382353eacce9596c"
+  },
+  "_source": "git@github.com:eikes/facetedsearch.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:eikes/facetedsearch.git",
+  "_direct": true
+}
