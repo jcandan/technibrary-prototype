@@ -68,7 +68,7 @@
             <img src="" width="30" height="30"/>
             <a href="#" class="btn bg-primary" type="button" data-toggle="modal" data-target="#comparison_modal">Compare</a>
           </div>
-          <div class="well">
+          <div id="facets" class="well">
             <h4>Platform</h4>
             <ol class="list-unstyled">
               <li><a href="#">PC</a></li>
@@ -87,7 +87,7 @@
           </div>
         </div>
         <div class="col-sm-9">
-          <div class="result-cards well">
+          <div id="result-cards" class="well">
             <div class="card">
               <div class="card-container">
                 <div class="card-image col-sm-3">
@@ -249,9 +249,72 @@
         </div>
       </div>
     </div>
+    <div id=facets></div>
+    <div id=results></div>
     <script src="assets/js/jquery.min.js?v=2.2.3"></script>
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="assets/js/facetedsearch.js"></script>
+    <script>
+      var example_items = [
+        {
+          "product_id": "1",
+          "product_label": "Spice Mobile: A Phrase Thesaurus & History of the English Language",
+          "price": "Free",
+          "platform": "PC",
+          "type": "app",
+          "use": "Individual use",
+          "field_of_study": "Reading",
+          "grade_level": "5",
+          "rating": "3.6",
+          "pros": "Vel eum iriure dolor in hendrerit in vulputate velit",
+          "cons": "Consequat, et vel illum dolore eu feugiat.",
+        }
+      ];
+      var item_template =
+        '<div class="card">' +
+        '<div class="card-container">' +
+        '<div class="card-image col-sm-3">' +
+        '<img src="assets/images/default-product.png" width="100%" height="100%" class="img-thumbnail" />' +
+        '</div>' +
+        '<div class="card-content col-sm-7">' +
+        '<div class="checkbox"><label><input type="checkbox" name="compare" value="<%= obj.product_id %>" />Compare</label></div>' +
+        '<a href="#"><h3 class="card-title"><%= obj.product_label %></h3></a>' +
+        '<div class="pricing">' +
+        '<span><%= obj.price %></span>' +
+        '</div>' +
+        '</div>' +
+        '<div class="card-actions col-sm-2 pull-right">' +
+        '<button type="button" class="close" data-hide="product_1">&times;</button>' +
+        '<div class="result-buttons">' +
+        '<button type="button" class="btn btn-primary fa fa-heart" data-favorite="product_1"></button>' +
+        '<button type="button" class="btn btn-primary fa fa-share" data-share="product_1"></button>' +
+        '</div>' +
+        '</div>' +
+        '</div>' +
+        '<div class="pros-cons">' +
+        '<p><strong>Pros:</strong> <%= obj.pros %></p>' +
+        '<p><strong>Cons:</strong> <%= obj.cons %></p>' +
+        '</div>' +
+        '</div>' +
+        '<hr />';
+
+      var settings = {
+        items           : example_items,
+        facets          : {
+          'platform': 'Platform',
+          'use': 'Use',
+          'field_of_study': 'Field of Study'
+        },
+        resultSelector  : '#result-cards',
+        facetSelector   : '#facets',
+        resultTemplate  : item_template,
+        orderByOptions  : {'price': 'Price', 'rating': 'Popularity'}
+      }
+      $(function(){
+        $.facetelize(settings);
+      });
+    </script>
     <script src="assets/js/bootstrap.min.js?v=3.3.6"></script>
-    <script src="assets/js/handlebars.min.js?v=4.0.5"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
