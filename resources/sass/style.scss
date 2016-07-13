@@ -62,16 +62,16 @@ body {
   }
 }
 
-.sort-actions a {
-  font-weight: bold;
-}
-
 .result-header {
   position: relative;
   .sort-actions {
     position: absolute;
     bottom: 0;
     right: 0;
+    margin-bottom: 10px;
+    a {
+      font-weight: bold;
+    }
   }
 }
 
