@@ -8054,15 +8054,15 @@ body {
   .footer .footer-info {
     padding-top: 30px; }
 
-.sort-actions a {
-  font-weight: bold; }
-
 .result-header {
   position: relative; }
   .result-header .sort-actions {
     position: absolute;
     bottom: 0;
-    right: 0; }
+    right: 0;
+    margin-bottom: 10px; }
+    .result-header .sort-actions a {
+      font-weight: bold; }
 
 .img-thumbnail {
   padding: 0;
