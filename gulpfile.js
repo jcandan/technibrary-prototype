@@ -38,7 +38,8 @@ gulp.task('js', function() {
             'resources/js/*.js',
             config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.min.js',
             config.bowerDir + '/jquery/dist/jquery.min.js',
-            config.bowerDir + '/handlebars/handlebars.min.js',
+            config.bowerDir + '/underscore/underscore-min.js',
+            config.bowerDir + '/facetedsearch/facetedsearch.js'
         ])
         .pipe(gulp.dest('./assets/js'));
 });
