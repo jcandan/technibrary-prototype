@@ -1,41 +1,34 @@
 $(document).ready(function() {
 
-  module("Functions");
+  module("Function functions (bind, bindAll, and so on...)");
 
   test("functions: bind", function() {
     var context = {name : 'moe'};
     var func = function(arg) { return "name: " + (this.name || arg); };
     var bound = _.bind(func, context);
-    equal(bound(), 'name: moe', 'can bind a function to a context');
+    equals(bound(), 'name: moe', 'can bind a function to a context');
 
     bound = _(func).bind(context);
-    equal(bound(), 'name: moe', 'can do OO-style binding');
+    equals(bound(), 'name: moe', 'can do OO-style binding');
 
     bound = _.bind(func, null, 'curly');
-    equal(bound(), 'name: curly', 'can bind without specifying a context');
+    equals(bound(), 'name: curly', 'can bind without specifying a context');
 
     func = function(salutation, name) { return salutation + ': ' + name; };
     func = _.bind(func, this, 'hello');
-    equal(func('moe'), 'hello: moe', 'the function was partially applied in advance');
+    equals(func('moe'), 'hello: moe', 'the function was partially applied in advance');
 
     var func = _.bind(func, this, 'curly');
-    equal(func(), 'hello: curly', 'the function was completely applied in advance');
+    equals(func(), 'hello: curly', 'the function was completely applied in advance');
 
     var func = function(salutation, firstname, lastname) { return salutation + ': ' + firstname + ' ' + lastname; };
     func = _.bind(func, this, 'hello', 'moe', 'curly');
-    equal(func(), 'hello: moe curly', 'the function was partially applied in advance and can accept multiple arguments');
+    equals(func(), 'hello: moe curly', 'the function was partially applied in advance and can accept multiple arguments');
 
-    func = function(context, message) { equal(this, context, message); };
+    func = function(context, message) { equals(this, context, message); };
     _.bind(func, 0, 0, 'can bind a function to `0`')();
     _.bind(func, '', '', 'can bind a function to an empty string')();
     _.bind(func, false, false, 'can bind a function to `false`')();
-
-    // These tests are only meaningful when using a browser without a native bind function
-    // To test this with a modern browser, set underscore's nativeBind to undefined
-    var F = function () { return this; };
-    var Boundf = _.bind(F, {hello: "moe curly"});
-    equal(new Boundf().hello, undefined, "function should not be bound to the context, to comply with ECMAScript 5");
-    equal(Boundf().hello, "moe curly", "When called without the new operator, it's OK to be bound to the context");
   });
 
   test("functions: bindAll", function() {
@@ -47,8 +40,8 @@ $(document).ready(function() {
     curly.getName = moe.getName;
     _.bindAll(moe, 'getName', 'sayHi');
     curly.sayHi = moe.sayHi;
-    equal(curly.getName(), 'name: curly', 'unbound function is bound to current object');
-    equal(curly.sayHi(), 'hi: moe', 'bound function is still bound to original object');
+    equals(curly.getName(), 'name: curly', 'unbound function is bound to current object');
+    equals(curly.sayHi(), 'hi: moe', 'bound function is still bound to original object');
 
     curly = {name : 'curly'};
     moe = {
@@ -58,7 +51,7 @@ $(document).ready(function() {
     };
     _.bindAll(moe);
     curly.sayHi = moe.sayHi;
-    equal(curly.sayHi(), 'hi: moe', 'calling bindAll with no arguments binds all functions to the object');
+    equals(curly.sayHi(), 'hi: moe', 'calling bindAll with no arguments binds all functions to the object');
   });
 
   test("functions: memoize", function() {
@@ -66,15 +59,15 @@ $(document).ready(function() {
       return n < 2 ? n : fib(n - 1) + fib(n - 2);
     };
     var fastFib = _.memoize(fib);
-    equal(fib(10), 55, 'a memoized version of fibonacci produces identical results');
-    equal(fastFib(10), 55, 'a memoized version of fibonacci produces identical results');
+    equals(fib(10), 55, 'a memoized version of fibonacci produces identical results');
+    equals(fastFib(10), 55, 'a memoized version of fibonacci produces identical results');
 
     var o = function(str) {
       return str;
     };
     var fastO = _.memoize(o);
-    equal(o('toString'), 'toString', 'checks hasOwnProperty');
-    equal(fastO('toString'), 'toString', 'checks hasOwnProperty');
+    equals(o('toString'), 'toString', 'checks hasOwnProperty');
+    equals(fastO('toString'), 'toString', 'checks hasOwnProperty');
   });
 
   asyncTest("functions: delay", 2, function() {
@@ -90,50 +83,16 @@ $(document).ready(function() {
     _.delay(function(){ ok(deferred, "deferred the function"); start(); }, 50);
   });
 
-  asyncTest("functions: throttle", 2, function() {
+  asyncTest("functions: throttle", 1, function() {
     var counter = 0;
     var incr = function(){ counter++; };
     var throttledIncr = _.throttle(incr, 100);
     throttledIncr(); throttledIncr(); throttledIncr();
-    setTimeout(throttledIncr, 70);
     setTimeout(throttledIncr, 120);
     setTimeout(throttledIncr, 140);
-    setTimeout(throttledIncr, 190);
     setTimeout(throttledIncr, 220);
     setTimeout(throttledIncr, 240);
-    _.delay(function(){ equal(counter, 1, "incr was called immediately"); }, 30);
-    _.delay(function(){ equal(counter, 4, "incr was throttled"); start(); }, 400);
-  });
-
-  asyncTest("functions: throttle arguments", 2, function() {
-    var value = 0;
-    var update = function(val){ value = val; };
-    var throttledUpdate = _.throttle(update, 100);
-    throttledUpdate(1); throttledUpdate(2); throttledUpdate(3);
-    setTimeout(function(){ throttledUpdate(4); }, 120);
-    setTimeout(function(){ throttledUpdate(5); }, 140);
-    setTimeout(function(){ throttledUpdate(6); }, 250);
-    _.delay(function(){ equal(value, 1, "updated to latest value"); }, 40);
-    _.delay(function(){ equal(value, 6, "updated to latest value"); start(); }, 400);
-  });
-
-  asyncTest("functions: throttle once", 2, function() {
-    var counter = 0;
-    var incr = function(){ return ++counter; };
-    var throttledIncr = _.throttle(incr, 100);
-    var result = throttledIncr();
-    _.delay(function(){
-      equal(result, 1, "throttled functions return their value");
-      equal(counter, 1, "incr was called once"); start();
-    }, 220);
-  });
-
-  asyncTest("functions: throttle twice", 1, function() {
-    var counter = 0;
-    var incr = function(){ counter++; };
-    var throttledIncr = _.throttle(incr, 100);
-    throttledIncr(); throttledIncr();
-    _.delay(function(){ equal(counter, 2, "incr was called twice"); start(); }, 220);
+    _.delay(function(){ ok(counter == 3, "incr was throttled"); start(); }, 400);
   });
 
   asyncTest("functions: debounce", 1, function() {
@@ -146,21 +105,7 @@ $(document).ready(function() {
     setTimeout(debouncedIncr, 90);
     setTimeout(debouncedIncr, 120);
     setTimeout(debouncedIncr, 150);
-    _.delay(function(){ equal(counter, 1, "incr was debounced"); start(); }, 220);
-  });
-
-  asyncTest("functions: debounce asap", 2, function() {
-    var counter = 0;
-    var incr = function(){ counter++; };
-    var debouncedIncr = _.debounce(incr, 50, true);
-    debouncedIncr(); debouncedIncr(); debouncedIncr();
-    equal(counter, 1, 'incr was called immediately');
-    setTimeout(debouncedIncr, 30);
-    setTimeout(debouncedIncr, 60);
-    setTimeout(debouncedIncr, 90);
-    setTimeout(debouncedIncr, 120);
-    setTimeout(debouncedIncr, 150);
-    _.delay(function(){ equal(counter, 1, "incr was debounced"); start(); }, 220);
+    _.delay(function(){ ok(counter == 1, "incr was debounced"); start(); }, 220);
   });
 
   test("functions: once", function() {
@@ -168,33 +113,28 @@ $(document).ready(function() {
     var increment = _.once(function(){ num++; });
     increment();
     increment();
-    equal(num, 1);
+    equals(num, 1);
   });
 
   test("functions: wrap", function() {
     var greet = function(name){ return "hi: " + name; };
     var backwards = _.wrap(greet, function(func, name){ return func(name) + ' ' + name.split('').reverse().join(''); });
-    equal(backwards('moe'), 'hi: moe eom', 'wrapped the saluation function');
+    equals(backwards('moe'), 'hi: moe eom', 'wrapped the saluation function');
 
     var inner = function(){ return "Hello "; };
     var obj   = {name : "Moe"};
     obj.hi    = _.wrap(inner, function(fn){ return fn() + this.name; });
-    equal(obj.hi(), "Hello Moe");
-
-    var noop    = function(){};
-    var wrapped = _.wrap(noop, function(fn){ return Array.prototype.slice.call(arguments, 0); });
-    var ret     = wrapped(['whats', 'your'], 'vector', 'victor');
-    same(ret, [noop, ['whats', 'your'], 'vector', 'victor']);
+    equals(obj.hi(), "Hello Moe");
   });
 
   test("functions: compose", function() {
     var greet = function(name){ return "hi: " + name; };
     var exclaim = function(sentence){ return sentence + '!'; };
     var composed = _.compose(exclaim, greet);
-    equal(composed('moe'), 'hi: moe!', 'can compose a function that takes another');
+    equals(composed('moe'), 'hi: moe!', 'can compose a function that takes another');
 
     composed = _.compose(greet, exclaim);
-    equal(composed('moe'), 'hi: moe!', 'in this case, the functions are also commutative');
+    equals(composed('moe'), 'hi: moe!', 'in this case, the functions are also commutative');
   });
 
   test("functions: after", function() {
@@ -207,9 +147,8 @@ $(document).ready(function() {
       return afterCalled;
     };
 
-    equal(testAfter(5, 5), 1, "after(N) should fire after being called N times");
-    equal(testAfter(5, 4), 0, "after(N) should not fire unless called N times");
-    equal(testAfter(0, 0), 1, "after(0) should fire immediately");
+    equals(testAfter(5, 5), 1, "after(N) should fire after being called N times");
+    equals(testAfter(5, 4), 0, "after(N) should not fire unless called N times");
   });
 
 });
