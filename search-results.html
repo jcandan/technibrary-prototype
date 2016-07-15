@@ -68,104 +68,10 @@
             <img src="" width="30" height="30"/>
             <a href="#" class="btn bg-primary" type="button" data-toggle="modal" data-target="#comparison_modal">Compare</a>
           </div>
-          <div id="facets" class="well">
-            <h4>Platform</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">PC</a></li>
-              <li><a href="#">Mac</a></li>
-              <li><a href="#">Android</a></li>
-              <li><a href="#">iOS</a></li>
-            </ol>
-            <hr />
-            <h4>Use</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">PC</a></li>
-              <li><a href="#">Mac</a></li>
-              <li><a href="#">Android</a></li>
-              <li><a href="#">iOS</a></li>
-            </ol>
-          </div>
+          <div id="facets" class="well"></div>
         </div>
         <div class="col-sm-9">
-          <div id="result-cards" class="well">
-            <div class="card">
-              <div class="card-container">
-                <div class="card-image col-sm-3">
-                  <img src="assets/images/default-product.png" width='100%' height="100%" class="img-thumbnail" />
-                </div>
-                <div class="card-content col-sm-7">
-                  <div class="checkbox"><label><input type="checkbox" name="compare" value="product_1" />Compare</label></div>
-                  <a href="#"><h3 class="card-title">Spice Mobile: A Phrase Thesaurus & History of the English Language</h3></a>
-                  <div class="pricing">
-                    <span>Purchase: $89</span>
-                  </div>
-                </div>
-                <div class="card-actions col-sm-2 pull-right">
-                  <button type="button" class="close" data-hide="product_1" data-toggle="tooltip" data-placement="right" title="Hide result">&times;</button>
-                  <div class="result-buttons">
-                    <button type="button" class="btn btn-primary fa fa-heart" data-favorite="product_1" data-toggle="tooltip" data-placement="bottom" title="Add to favorites"></button>
-                    <button type="button" class="btn btn-primary fa fa-share" data-share="product_1" data-toggle="tooltip" data-placement="bottom" title="Share with friends"></button>
-                  </div>
-                </div>
-              </div>
-              <div class="pros-cons">
-                <p><strong>Pros:</strong> Vel eum iriure dolor in hendrerit in vulputate velit.</p>
-                <p><strong>Cons:</strong> Consequat, et vel illum dolore eu feugiat.</p>
-              </div>
-            </div>
-            <hr />
-            <div class="card">
-              <div class="card-container">
-                <div class="card-image col-sm-3">
-                  <img src="assets/images/default-product.png" width='100%' height="100%" class="img-thumbnail" />
-                </div>
-                <div class="card-content col-sm-7">
-                  <div class="checkbox"><label><input type="checkbox" name="compare" value="product_1" />Compare</label></div>
-                  <a href="#"><h3 class="card-title">Spice Mobile: A Phrase Thesaurus & History of the English Language</h3></a>
-                  <div class="pricing">
-                    <span>Purchase: $89</span>
-                  </div>
-                </div>
-                <div class="card-actions col-sm-2 pull-right">
-                  <button type="button" class="close" data-hide="product_1">&times;</button>
-                  <div class="result-buttons">
-                    <button type="button" class="btn btn-primary fa fa-heart" data-favorite="product_1"></button>
-                    <button type="button" class="btn btn-primary fa fa-share" data-share="product_1"></button>
-                  </div>
-                </div>
-              </div>
-              <div class="pros-cons">
-                <p><strong>Pros:</strong> Vel eum iriure dolor in hendrerit in vulputate velit.</p>
-                <p><strong>Cons:</strong> Consequat, et vel illum dolore eu feugiat.</p>
-              </div>
-            </div>
-            <hr />
-            <div class="card">
-              <div class="card-container">
-                <div class="card-image col-sm-3">
-                  <img src="assets/images/default-product.png" width='100%' height="100%" class="img-thumbnail" />
-                </div>
-                <div class="card-content col-sm-7">
-                  <div class="checkbox"><label><input type="checkbox" name="compare" value="product_1" />Compare</label></div>
-                  <a href="#"><h3 class="card-title">Spice Mobile: A Phrase Thesaurus & History of the English Language</h3></a>
-                  <div class="pricing">
-                    <span>Purchase: $89</span>
-                  </div>
-                </div>
-                <div class="card-actions col-sm-2 pull-right">
-                  <button type="button" class="close" data-hide="product_1">&times;</button>
-                  <div class="result-buttons">
-                    <button type="button" class="btn btn-primary fa fa-heart" data-favorite="product_1"></button>
-                    <button type="button" class="btn btn-primary fa fa-share" data-share="product_1"></button>
-                  </div>
-                </div>
-              </div>
-              <div class="pros-cons">
-                <p><strong>Pros:</strong> Vel eum iriure dolor in hendrerit in vulputate velit.</p>
-                <p><strong>Cons:</strong> Consequat, et vel illum dolore eu feugiat.</p>
-              </div>
-            </div>
-          </div>
+          <div id="results" class="well"></div>
         </div>
       </div>
     </div> <!-- /container -->
@@ -249,72 +155,427 @@
         </div>
       </div>
     </div>
-    <div id=facets></div>
-    <div id=results></div>
+
     <script src="assets/js/jquery.min.js?v=2.2.3"></script>
     <script src="assets/js/underscore-min.js"></script>
+    <script src="assets/js/bootstrap.min.js?v=3.3.6"></script>
     <script src="assets/js/facetedsearch.js"></script>
+    <script src="assets/js/script.js"></script>
+
     <script>
-      var example_items = [
-        {
-          "product_id": "1",
-          "product_label": "Spice Mobile: A Phrase Thesaurus & History of the English Language",
-          "price": "Free",
-          "platform": "PC",
-          "type": "app",
-          "use": "Individual use",
-          "field_of_study": "Reading",
-          "grade_level": "5",
-          "rating": "3.6",
-          "pros": "Vel eum iriure dolor in hendrerit in vulputate velit",
-          "cons": "Consequat, et vel illum dolore eu feugiat.",
-        }
-      ];
+      $(function() {
       var item_template =
         '<div class="card">' +
-        '<div class="card-container">' +
-        '<div class="card-image col-sm-3">' +
-        '<img src="assets/images/default-product.png" width="100%" height="100%" class="img-thumbnail" />' +
-        '</div>' +
-        '<div class="card-content col-sm-7">' +
-        '<div class="checkbox"><label><input type="checkbox" name="compare" value="<%= obj.product_id %>" />Compare</label></div>' +
-        '<a href="#"><h3 class="card-title"><%= obj.product_label %></h3></a>' +
-        '<div class="pricing">' +
-        '<span><%= obj.price %></span>' +
-        '</div>' +
-        '</div>' +
-        '<div class="card-actions col-sm-2 pull-right">' +
-        '<button type="button" class="close" data-hide="product_1">&times;</button>' +
-        '<div class="result-buttons">' +
-        '<button type="button" class="btn btn-primary fa fa-heart" data-favorite="product_1"></button>' +
-        '<button type="button" class="btn btn-primary fa fa-share" data-share="product_1"></button>' +
-        '</div>' +
-        '</div>' +
-        '</div>' +
-        '<div class="pros-cons">' +
-        '<p><strong>Pros:</strong> <%= obj.pros %></p>' +
-        '<p><strong>Cons:</strong> <%= obj.cons %></p>' +
-        '</div>' +
-        '</div>' +
+          '<div class="card-container">' +
+            '<div class="card-image col-sm-3">' +
+              '<img src="assets/images/default-product.png" width="100%" height="100%" class="img-thumbnail" />' +
+            '</div>' +
+            '<div class="card-content col-sm-7">' +
+              '<div class="checkbox"><label><input type="checkbox" name="compare" value="<%= obj.product_id %>" />Compare</label></div>' +
+              '<a href="#"><h3 class="card-title"><%= obj.product_label %></h3></a>' +
+              '<div class="pricing">' +
+                '<span><%= obj.price %></span>' +
+              '</div>' +
+            '</div>' +
+            '<div class="card-actions col-sm-2 pull-right">' +
+              '<button type="button" class="close" data-hide="<%= obj.product_id %>">&times;</button>' +
+              '<div class="result-buttons">' +
+                '<button type="button" class="btn btn-primary fa fa-heart" data-favorite="<%= obj.product_id %>" data-toggle="tooltip" data-placement="bottom" title="Add to favorites"></button>' +
+                '<button type="button" class="btn btn-primary fa fa-share" data-share="<%= obj.product_id %>" data-toggle="tooltip" data-placement="bottom" title="Share with friends"></button>' +
+              '</div>' +
+            '</div>' +
+          '</div>' +
+          '<div class="pros-cons">' +
+            '<p><strong>Pros:</strong> <%= obj.pros %></p>' +
+            '<p><strong>Cons:</strong> <%= obj.cons %></p>' +
+          '</div>' +
+        '</div><div class="clearfix"></div>' +
         '<hr />';
 
-      var settings = {
-        items           : example_items,
-        facets          : {
-          'platform': 'Platform',
-          'use': 'Use',
-          'field_of_study': 'Field of Study'
-        },
-        resultSelector  : '#result-cards',
-        facetSelector   : '#facets',
-        resultTemplate  : item_template,
-        orderByOptions  : {'price': 'Price', 'rating': 'Popularity'}
-      }
-      $(function(){
+        settings = {
+          items           : technibrary_items,
+          facets          : {
+            'platforms'       : 'Platforms',
+            'use_case'        : 'Use Cases',
+            'field_of_study'  : 'Field of Study',
+            'grade_level'     : 'Grade Level',
+            'stars'           : 'Rating'
+          },
+        facetContainer     : '<div class=facetsearch id=<%= id %> ></div>',
+        facetTitleTemplate : '<h4 class=facettitle><%= title %></h4>',
+        facetListContainer : '<ol class="list-unstyled facetlist"></ol>',
+        listItemTemplate   : '<li><a class=facetitem id="<%= id %>"><%= name %> <span class=facetitemcount>(<%= count %>)</span></a></li>',
+          resultSelector  : '#results',
+          facetSelector   : '#facets',
+          resultTemplate  : item_template,
+          orderByOptions  : {'price': 'Price', 'rating': 'Popularity'},
+        }
+
         $.facetelize(settings);
       });
     </script>
-    <script src="assets/js/bootstrap.min.js?v=3.3.6"></script>
-    <script src="assets/js/script.js"></script>
+    <script>
+      var technibrary_items = [
+        {
+          "product_id" : "1",
+          "product_label" : "Spice Mobile: A Phrase Thesaurus & History of the English Language",
+          "user" : "Bryson Foss",
+          "types" : [
+            "app",
+            "website"
+          ],
+          "url" : "https://www.writersmuse.com/Pages/Others/Products.aspx",
+          "price" : "Fee",
+          "platforms" : [
+            "Android",
+            "iPhone"
+          ],
+          "use_case" : "Individual use",
+          "field_of_study" : "Writing ",
+          "grade_level" : "All ages",
+          "teaser" : "Thesaurus meets writing generator",
+          "description" : "A new kind of thesaurus with over 23,000 fresh phrases (no clichés or idioms); Descriptive metaphors and similes; Detailed source history; Associative linking to similar phrases",
+          "pros" : "It can help get you going when you can't think of anything",
+          "cons" : "need to watch tutorial for best use of the product (5 min)",
+          "summary" : "Inspirational tool for writer's block",
+          "tutorial_urls" : "https://www.writersmuse.com/Pages/Others/Tutorials.aspx",
+          "restrictions" : "",
+          "comments" : "",
+          "review_links" : "",
+          "stars" : "3"
+        },
+        {
+          "product_id" : "2",
+          "product_label" : "Bubbl",
+          "user" : "Rowan Spraker",
+          "types" : "website",
+          "url" : "bubbl.us",
+          "price" : "Fee",
+          "platforms" : [
+            "Mac",
+            "Windows",
+            "Android",
+            "iPhone",
+            "Windows Phone",
+            "iPad",
+            "Chrome"
+          ],
+          "use_case" : [
+            "Individual use",
+            "Small-group lessons"
+          ],
+          "field_of_study" : [
+            "Writing",
+            "English/Language Arts"
+          ],
+          "grade_level" : [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "college"
+          ],
+          "teaser" : "A mix of google drive and story book",
+          "description" : "Getting started on an essay, novel, or any form of writing may require some brainstorming. This website allows you to quickly and easily brainstorm or create a map for your ideas. This simple, easy-to-use site makes it painless to organize ideas with the use of customization of bubble color, text size and formatting, and even hyperlinks. This site is free to use, and you don’t even need to make an account unless you want to save your data.",
+          "pros" : "I think the amount of features is the best thing about the website",
+          "cons" : "It costs money and the website is not easy to navigate.",
+          "summary" : "It is the best combination of writing resources packed into one ",
+          "tutorial_urls" : "",
+          "restrictions" : "",
+          "comments" : "",
+          "review_links" : "",
+          "stars" : "5"
+        },
+        {
+          "product_id" : "3",
+          "product_label" : "Agent Obvious",
+          "user" : "Jacob Murphy ",
+          "types" : "app",
+          "url" : "https://itunes.apple.com/us/app/agent-obvious/id382349065?mt=8",
+          "price" : "Free",
+          "platforms" : "iPhone",
+          "use_case" : [
+            "Individual use",
+            "Small-group lessons"
+          ],
+          "field_of_study" : "Writing",
+          "grade_level" : [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "college"
+          ],
+          "teaser" : "Advice giver for aspiring writers",
+          "description" : "this app offers hundreds of insightful tips for anyone in publishing and for those who aspire to be.",
+          "pros" : "Laurie is a credible source that specializes in publishing. ",
+          "cons" : "only for those serious about persuing career in writing or publishing",
+          "summary" : "nothing heavy - it's a good little \"tip of the day\" type of helper",
+          "tutorial_urls" : "",
+          "restrictions" : "",
+          "comments" : "",
+          "review_links" : "https://twitter.com/laurieabkemeier",
+          "stars" : "4"
+        },
+        {
+          "product_id" : "4",
+          "product_label" : "American Rhetoric",
+          "user" : "Olivia Young",
+          "types" : "website",
+          "url" : "http://www.americanrhetoric.com/",
+          "price" : "Free",
+          "platforms" : [
+            "Mac",
+            "Windows",
+            "Android",
+            "iPhone",
+            "Windows Phone",
+            "iPad",
+            "Chrome"
+          ],
+          "use_case" : [
+            "Individual use",
+            "Small-group lessons",
+            "Whole-class lessons",
+            "Teacher-led lessons",
+            "Student-driven work",
+            "Practice",
+            "Homework",
+            "Deeper Understanding"
+          ],
+          "field_of_study" : "Any subject area",
+          "grade_level" : "All ages",
+          "teaser" : "Every significant speech you might want to hear",
+          "description" : "Speech Bank",
+          "pros" : "Many speeches can be heard via original recordings; very powerful",
+          "cons" : "system is a little \"clunky\" ",
+          "summary" : "It takes a minute to learn the system, but then it's a gold mine",
+          "tutorial_urls" : "",
+          "restrictions" : "",
+          "comments" : "",
+          "review_links" : "",
+          "stars" : "5"
+        },
+        {
+          "product_id" : "5",
+          "product_label" : "iTunes App Store",
+          "user" : "Seth Wicker",
+          "types" : [
+            "website",
+            "app"
+          ],
+          "url" : "https://itunes.apple.com/us/genre/ios/id36?mt=8",
+          "price" : "Free",
+          "platforms" : [
+            "iPhone",
+            "Mac"
+          ],
+          "use_case" : "ALL",
+          "field_of_study" : "Any subject area",
+          "grade_level" : "All ages",
+          "teaser" : "A store on your device",
+          "description" : "Find games, programs, books/magazines, music and more for use with your devices.",
+          "pros" : "Shop from the convenience of your device",
+          "cons" : "Be careful with items that cost money - be sure to read reviews first",
+          "summary" : "This should be one of the first things you learn to operate from your new device.",
+          "tutorial_urls" : "",
+          "restrictions" : "",
+          "comments" : "",
+          "review_links" : "",
+          "stars" : "2"
+        },
+        {
+          "product_id" : "6",
+          "product_label" : "Aztekera",
+          "user" : "Luke Sivley",
+          "types" : "website",
+          "url" : "http://www.aztekera.com/tools/tobeverbs.php",
+          "price" : "Free",
+          "platforms" : [
+            "Mac",
+            "Windows"
+          ],
+          "use_case" : [
+            "Individual use",
+            "Student-driven work",
+            "Practice",
+            "Homework",
+            "Deeper Understanding"
+          ],
+          "field_of_study" : [
+            "Writing",
+            "English/Language Arts"
+          ],
+          "grade_level" : [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "college"
+          ],
+          "teaser" : "Free writing editor",
+          "description" : "Aztekera offers a free online tool that helps you look out for the ‘To be’ verbs, that make up a passive voice phrase. Use this tool to eliminate the passive voice phrases in your writing. The excessive use of passive voice might be the reason for the non-persuasive tone of your writing. Get rid of such form of writing using Aztekera Passive voice checker tool.",
+          "pros" : "Analyzes text for \"to be\" verbs",
+          "cons" : "It's difficult to understand results",
+          "summary" : "Idea is good; not very practical - find something else.",
+          "tutorial_urls" : "",
+          "restrictions" : "",
+          "comments" : "",
+          "review_links" : "",
+          "stars" : "3"
+        },
+        {
+          "product_id" : "7",
+          "product_label" : "babbel",
+          "user" : "Sarah Gravett",
+          "types" : "app",
+          "url" : "https://www.babbel.com/",
+          "price" : "Fee",
+          "platforms" : [
+            "Mac",
+            "Windows",
+            "Android",
+            "iPhone",
+            "Windows Phone"
+          ],
+          "use_case" : [
+            "Individual use",
+            "Small-group lessons",
+            "Practice",
+            "Deeper Understanding"
+          ],
+          "field_of_study" : "World Languages",
+          "grade_level" : "All ages",
+          "teaser" : "Like Duolingual but with more languages",
+          "description" : "App to learn languages",
+          "pros" : "Inexpensive online language-learning program. Good quality and course structure.",
+          "cons" : "Throws a lot of new words at beginners. Quantity of content varies by language. No live Web classes or tutoring.",
+          "summary" : "For an inexpensive program, it packs a punch, as material is challenging. Not for slackers",
+          "tutorial_urls" : "",
+          "restrictions" : "",
+          "comments" : "",
+          "review_links" : [
+            "http://www.pcmag.com/article2/0",
+            "2817",
+            "2411398",
+            "00.asp"
+          ],
+          "stars" : "0"
+        },
+        {
+          "product_id" : "8",
+          "product_label" : "Calmly Writer",
+          "user" : "Lauren Levine",
+          "types" : "app",
+          "url" : "http://www.calmlywriter.com",
+          "price" : [
+            "Free",
+            "Fee"
+          ],
+          "platforms" : [
+            "Mac",
+            "Windows",
+            "Linux and ChromeOS"
+          ],
+          "use_case" : [
+            "Individual use",
+            "Organization"
+          ],
+          "field_of_study" : "Writing",
+          "grade_level" : [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "college"
+          ],
+          "teaser" : "Writing platform that keeps you focused",
+          "description" : "Traditional text processors include dozens of options for formatting text, distracting you from what really matters: writing.\nCalmly Writer is an editor designed to focus on what you want to tell, with a simple, unobtrusive and ease-to-use user interface",
+          "pros" : "Focus on only the part you're writing on keeps those easily distracted on focus. Includes features that help people with disabilities or other focusing \"issues.\"",
+          "cons" : "Minimal features (b/c you're not supposed to be distracted!)",
+          "summary" : "Calmly Writer is best used for writers who find themselves distracted in other applications. It can’t replace Google Docs or Microsoft Word. It's great for getting the creative juices flowing.",
+          "tutorial_urls" : "",
+          "restrictions" : "",
+          "comments" : "",
+          "review_links" : "https://github.com/timlockridge/awritersfieldguide/blob/master/ch05.md",
+          "stars" : "2"
+        },
+        {
+          "product_id" : "9",
+          "product_label" : "Chattanooga Times Free Press",
+          "user" : "Meg Parry",
+          "types" : "website",
+          "url" : "",
+          "price" : "Free",
+          "platforms" : [
+            "Mac",
+            "Windows"
+          ],
+          "use_case" : [
+            "Individual use",
+            "Homework"
+          ],
+          "field_of_study" : "Any subject area",
+          "grade_level" : "All ages",
+          "teaser" : "Its an online newspaper!",
+          "description" : "Its a free online newspaper that updates you on current events.",
+          "pros" : "an array of subjects to read about ",
+          "cons" : "its not super popular and focuses on a lot more local news",
+          "summary" : "Its important to keep yourself updated on current events",
+          "tutorial_urls" : "",
+          "restrictions" : "",
+          "comments" : "",
+          "review_links" : "",
+          "stars" : "5"
+        },
+        {
+          "product_id" : "10",
+          "product_label" : "Citation Machine",
+          "user" : "Olivia Young",
+          "types" : "website",
+          "url" : "http://www.citationmachine.net/",
+          "price" : "Free",
+          "platforms" : [
+            "Mac",
+            "Windows"
+          ],
+          "use_case" : [
+            "Individual use",
+            "Student-driven work",
+            "Practice"
+          ],
+          "field_of_study" : "Any subject area",
+          "grade_level" : [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "college",
+            "teacher"
+          ],
+          "teaser" : "different easybib",
+          "description" : "Citation Machine automatically generates citations in MLA, APA, Chicago, Turabian, and thousands more!",
+          "pros" : "easy to MLA cite sources",
+          "cons" : "none?",
+          "summary" : "easy MLA citations",
+          "tutorial_urls" : "",
+          "restrictions" : "",
+          "comments" : "",
+          "review_links" : "",
+          "stars" : "5"
+        },
+      ];
+    </script>
   </body>
 </html>
