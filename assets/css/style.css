@@ -8073,32 +8073,28 @@ body {
 /*
  * Results
  */
-#result-cards hr {
+#results hr {
   border: 1px solid #ddd; }
 
-#result-cards .card {
+#results .card {
   position: relative;
   min-height: 200px; }
-  #result-cards .card .card-actions .result-buttons {
+  #results .card .card-actions .result-buttons {
     clear: both;
     float: right; }
-    #result-cards .card .card-actions .result-buttons .btn {
+    #results .card .card-actions .result-buttons .btn {
       padding: 6px; }
-  #result-cards .card .card-container {
-    position: absolute;
-    top: 0;
-    left: 0; }
-    #result-cards .card .card-container .card-content {
-      position: relative;
-      min-height: 200px; }
-      #result-cards .card .card-container .card-content h3.card-title {
-        width: 80%; }
-      #result-cards .card .card-container .card-content .pricing {
-        padding-left: 15px;
-        position: absolute;
-        bottom: 0;
-        left: 0; }
-  #result-cards .card .pros-cons {
+  #results .card .card-container .card-content {
+    position: relative;
+    min-height: 200px; }
+    #results .card .card-container .card-content h3.card-title {
+      width: 80%; }
+    #results .card .card-container .card-content .pricing {
+      padding-left: 15px;
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+  #results .card .pros-cons {
     width: 240px;
     position: absolute;
     bottom: 0;
