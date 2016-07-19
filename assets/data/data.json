@@ -1,119 +1,4068 @@
-{
-  "products": {
-    "product_1": {
-      "name": "Product 1",
-      "description": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
-      "price": 4.49,
-      "features": {
-        "feature_1": {
-          "title": "Feature 1",
-          "value": "TRUE"
-        },
-        "feature_2": {
-          "title": "Feature 2",
-          "value": "FALSE"
-        },
-        "feature_3": {
-          "title": "Feature 3",
-          "value": "TRUE"
-        },
-        "feature_4": {
-          "title": "Feature 4",
-          "value": "FALSE"
-        }
-      }
-    },
-    "product_2": {
-      "name": "Product 2",
-      "description": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
-      "price": 4.49,
-      "features": {
-        "feature_1": {
-          "title": "Feature 1",
-          "value": "TRUE"
-        },
-        "feature_2": {
-          "title": "Feature 2",
-          "value": "FALSE"
-        },
-        "feature_3": {
-          "title": "Feature 3",
-          "value": "TRUE"
-        },
-        "feature_4": {
-          "title": "Feature 4",
-          "value": "FALSE"
-        }
-      }
-    },
-    "product_3": {
-      "name": "Product 3",
-      "description": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
-      "price": 4.49,
-      "features": {
-        "feature_1": {
-          "title": "Feature 1",
-          "value": "TRUE"
-        },
-        "feature_2": {
-          "title": "Feature 2",
-          "value": "FALSE"
-        },
-        "feature_3": {
-          "title": "Feature 3",
-          "value": "TRUE"
-        },
-        "feature_4": {
-          "title": "Feature 4",
-          "value": "FALSE"
-        }
-      }
-    },
-    "product_4": {
-      "name": "Product 4",
-      "description": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
-      "price": 4.49,
-      "features": {
-        "feature_1": {
-          "title": "Feature 1",
-          "value": "TRUE"
-        },
-        "feature_2": {
-          "title": "Feature 2",
-          "value": "FALSE"
-        },
-        "feature_3": {
-          "title": "Feature 3",
-          "value": "TRUE"
-        },
-        "feature_4": {
-          "title": "Feature 4",
-          "value": "FALSE"
-        }
-      }
-    },
-    "product_5": {
-      "name": "Product 5",
-      "description": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
-      "price": 4.99,
-      "features": {
-        "feature_1": {
-          "title": "Feature 1",
-          "value": "FALSE"
-        },
-        "feature_2": {
-          "title": "Feature 2",
-          "value": "FALSE"
-        },
-        "feature_3": {
-          "title": "Feature 3",
-          "value": "TRUE"
-        },
-        "feature_4": {
-          "title": "Feature 4",
-          "value": "FALSE"
-        }
-      }
-    }
+[
+  {
+    "product_id" : "1",
+    "product_label" : "Spice Mobile: A Phrase Thesaurus & History of the English Language",
+    "user" : "Bryson Foss",
+    "types" : [
+      "app",
+      "website"
+    ],
+    "url" : "https://www.writersmuse.com/Pages/Others/Products.aspx",
+    "price" : "Fee",
+    "platforms" : [
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Writing ",
+    "grade_level" : "All ages",
+    "teaser" : "Thesaurus meets writing generator",
+    "description" : "A new kind of thesaurus with over 23,000 fresh phrases (no clichés or idioms); Descriptive metaphors and similes; Detailed source history; Associative linking to similar phrases",
+    "pros" : "It can help get you going when you can't think of anything",
+    "cons" : "need to watch tutorial for best use of the product (5 min)",
+    "summary" : "Inspirational tool for writer's block",
+    "tutorial_urls" : "https://www.writersmuse.com/Pages/Others/Tutorials.aspx",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "2",
+    "product_label" : "Bubbl",
+    "user" : "Rowan Spraker",
+    "types" : "website",
+    "url" : "bubbl.us",
+    "price" : "Fee",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone",
+      "iPad",
+      "Chrome"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts"
+    ],
+    "grade_level" : [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "A mix of google drive and story book",
+    "description" : "Getting started on an essay, novel, or any form of writing may require some brainstorming. This website allows you to quickly and easily brainstorm or create a map for your ideas. This simple, easy-to-use site makes it painless to organize ideas with the use of customization of bubble color, text size and formatting, and even hyperlinks. This site is free to use, and you don’t even need to make an account unless you want to save your data.",
+    "pros" : "I think the amount of features is the best thing about the website",
+    "cons" : "It costs money and the website is not easy to navigate.",
+    "summary" : "It is the best combination of writing resources packed into one ",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "3",
+    "product_label" : "Agent Obvious",
+    "user" : "Jacob Murphy ",
+    "types" : "app",
+    "url" : "https://itunes.apple.com/us/app/agent-obvious/id382349065?mt=8",
+    "price" : "Free",
+    "platforms" : "iPhone",
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons"
+    ],
+    "field_of_study" : "Writing",
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "Advice giver for aspiring writers",
+    "description" : "this app offers hundreds of insightful tips for anyone in publishing and for those who aspire to be.",
+    "pros" : "Laurie is a credible source that specializes in publishing. ",
+    "cons" : "only for those serious about persuing career in writing or publishing",
+    "summary" : "nothing heavy - it's a good little \"tip of the day\" type of helper",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "https://twitter.com/laurieabkemeier",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "4",
+    "product_label" : "American Rhetoric",
+    "user" : "Olivia Young",
+    "types" : "website",
+    "url" : "http://www.americanrhetoric.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone",
+      "iPad",
+      "Chrome"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Student-driven work",
+      "Practice",
+      "Homework",
+      "Deeper Understanding"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Every significant speech you might want to hear",
+    "description" : "Speech Bank",
+    "pros" : "Many speeches can be heard via original recordings; very powerful",
+    "cons" : "system is a little \"clunky\" ",
+    "summary" : "It takes a minute to learn the system, but then it's a gold mine",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "5",
+    "product_label" : "iTunes App Store",
+    "user" : "Seth Wicker",
+    "types" : [
+      "website",
+      "app"
+    ],
+    "url" : "https://itunes.apple.com/us/genre/ios/id36?mt=8",
+    "price" : "Free",
+    "platforms" : [
+      "iPhone",
+      "Mac"
+    ],
+    "use_case" : "ALL",
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "A store on your device",
+    "description" : "Find games, programs, books/magazines, music and more for use with your devices.",
+    "pros" : "Shop from the convenience of your device",
+    "cons" : "Be careful with items that cost money - be sure to read reviews first",
+    "summary" : "This should be one of the first things you learn to operate from your new device.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "6",
+    "product_label" : "Aztekera",
+    "user" : "Luke Sivley",
+    "types" : "website",
+    "url" : "http://www.aztekera.com/tools/tobeverbs.php",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Practice",
+      "Homework",
+      "Deeper Understanding"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts"
+    ],
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "Free writing editor",
+    "description" : "Aztekera offers a free online tool that helps you look out for the ‘To be’ verbs, that make up a passive voice phrase. Use this tool to eliminate the passive voice phrases in your writing. The excessive use of passive voice might be the reason for the non-persuasive tone of your writing. Get rid of such form of writing using Aztekera Passive voice checker tool.",
+    "pros" : "Analyzes text for \"to be\" verbs",
+    "cons" : "It's difficult to understand results",
+    "summary" : "Idea is good; not very practical - find something else.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "7",
+    "product_label" : "babbel",
+    "user" : "Sarah Gravett",
+    "types" : "app",
+    "url" : "https://www.babbel.com/",
+    "price" : "Fee",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Practice",
+      "Deeper Understanding"
+    ],
+    "field_of_study" : "World Languages",
+    "grade_level" : "All ages",
+    "teaser" : "Like Duolingual but with more languages",
+    "description" : "App to learn languages",
+    "pros" : "Inexpensive online language-learning program. Good quality and course structure.",
+    "cons" : "Throws a lot of new words at beginners. Quantity of content varies by language. No live Web classes or tutoring.",
+    "summary" : "For an inexpensive program, it packs a punch, as material is challenging. Not for slackers",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : [
+      "http://www.pcmag.com/article2/0",
+      "2817",
+      "2411398",
+      "00.asp"
+    ],
+    "stars" : "0"
+  },
+  {
+    "product_id" : "8",
+    "product_label" : "Calmly Writer",
+    "user" : "Lauren Levine",
+    "types" : "app",
+    "url" : "http://www.calmlywriter.com",
+    "price" : [
+      "Free",
+      "Fee"
+    ],
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Linux and ChromeOS"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Organization"
+    ],
+    "field_of_study" : "Writing",
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "Writing platform that keeps you focused",
+    "description" : "Traditional text processors include dozens of options for formatting text, distracting you from what really matters: writing.\nCalmly Writer is an editor designed to focus on what you want to tell, with a simple, unobtrusive and ease-to-use user interface",
+    "pros" : "Focus on only the part you're writing on keeps those easily distracted on focus. Includes features that help people with disabilities or other focusing \"issues.\"",
+    "cons" : "Minimal features (b/c you're not supposed to be distracted!)",
+    "summary" : "Calmly Writer is best used for writers who find themselves distracted in other applications. It can’t replace Google Docs or Microsoft Word. It's great for getting the creative juices flowing.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "https://github.com/timlockridge/awritersfieldguide/blob/master/ch05.md",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "9",
+    "product_label" : "Chattanooga Times Free Press",
+    "user" : "Meg Parry",
+    "types" : "website",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Homework"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Its an online newspaper!",
+    "description" : "Its a free online newspaper that updates you on current events.",
+    "pros" : "an array of subjects to read about ",
+    "cons" : "its not super popular and focuses on a lot more local news",
+    "summary" : "Its important to keep yourself updated on current events",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "10",
+    "product_label" : "Citation Machine",
+    "user" : "Olivia Young",
+    "types" : "website",
+    "url" : "http://www.citationmachine.net/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Practice"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "different easybib",
+    "description" : "Citation Machine automatically generates citations in MLA, APA, Chicago, Turabian, and thousands more!",
+    "pros" : "easy to MLA cite sources",
+    "cons" : "none?",
+    "summary" : "easy MLA citations",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "11",
+    "product_label" : "Coggle",
+    "user" : "Meg Parry",
+    "types" : "website",
+    "url" : "https://coggle.it/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Student-driven work",
+      "Practice",
+      "Creation",
+      "Homework",
+      "Deeper Understanding",
+      "Curriculum Planning",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Mind Mapping for Groups",
+    "description" : "A clear way to share complex information.",
+    "pros" : "It helps your thoughts be super organized",
+    "cons" : "It costs money for the good features",
+    "summary" : "Mind Mapping: With Friends!",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "12",
+    "product_label" : "Creative Book Builder",
+    "user" : "Turner Wilferth",
+    "types" : "app",
+    "url" : "http://www.appsinclass.com/creative-book-builder.html",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Book social media",
+    "description" : "Creative Book Builder is a fantastic app that allows students to create books in epub format, which can then be exported to iBooks and shared with others. There are a variety of instructional uses for this app, from using it as a publishing tool for project-based learning to a summative assessment at the end of a unit.  Students can embed images, audio files, video files, and write text.  The advantage of an epub document over a PDF document is that all of the media will be preserved and available for readers to interact with when the final product is published.  \n\nDepending on how you use Creative Book Builder with students, this app can help students complete tasks that align with every level of the revised Bloom's Taxonomy.  Explore the different ways this app can be used at each level of Bloom's Taxonomy...",
+    "pros" : "Books written can be shared",
+    "cons" : "Seems to be for younger children",
+    "summary" : "Easy to use, love the creativity ",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "13",
+    "product_label" : "Diaro",
+    "user" : "Jacob Murphy",
+    "types" : "app",
+    "url" : "http://www.diaroapp.com/",
+    "price" : "Fee",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Creation",
+      "Organization"
+    ],
+    "field_of_study" : "Writing",
+    "grade_level" : "All ages",
+    "teaser" : "Its basically a completely digital diary.",
+    "description" : "Diaro is an advanced diary application, but it can be used for keeping a journal or simply writing notes. ",
+    "pros" : "It password protects your personal diary entries. ",
+    "cons" : "Its limited to writing either a diary or note taking. ",
+    "summary" : "To effectively organize your personal thoughts and stories in a diary like platform. ",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "14",
+    "product_label" : "Draft. Write Better.",
+    "user" : "Bryson Foss",
+    "types" : "website",
+    "url" : "https://draftin.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone",
+      "XBox One",
+      "XBox 360",
+      "Apps for Windows",
+      "iPad",
+      "Nook",
+      "Chrome"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Organization"
+    ],
+    "field_of_study" : "Writing",
+    "grade_level" : "All ages",
+    "teaser" : "Offers an online editor with easy version control and collaboration to improve your writing.",
+    "description" : "Offers an online editor with easy version control and collaboration to improve your writing.",
+    "pros" : "Offers an online editor with easy version control and collaboration to improve your writing.",
+    "cons" : "Sign up.",
+    "summary" : "Helps",
+    "tutorial_urls" : [
+      "https://draftin.com/",
+      "https://draftin.com/"
+    ],
+    "restrictions" : "",
+    "comments" : "Helpful",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "15",
+    "product_label" : "Drafts 4",
+    "user" : "Rowan Spraker",
+    "types" : "app",
+    "url" : "https://itunes.apple.com/us/app/drafts-4-quickly-capture-notes/id905337691?mt=8",
+    "price" : "Fee",
+    "platforms" : "iPhone",
+    "use_case" : "Individual use",
+    "field_of_study" : "Writing",
+    "grade_level" : [
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Imagine your notes app on your phone expanded to send those notes anywhere on the internet",
+    "description" : "While Drafts can be used as a proper writing app, its best use is for quick entry of your thoughts, to use elsewhere later. Drafts also lets you send text to tons of services and apps. Think of it as the best scratch pad available for writers.",
+    "pros" : "I think that you can send it to facebook, your email, google docs, etc. is very good.",
+    "cons" : "it is 10.00 for just one or two less steps that you could take on your own.",
+    "summary" : "Ever think of something really awesome in the middle of the day but then later that thought has completely escaped. Well this app can help.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "16",
+    "product_label" : "Dragon Dictation ",
+    "user" : "Jacob Murphy",
+    "types" : "app",
+    "url" : "https://itunes.apple.com/us/app/dragon-dictation/id341446764?mt=8",
+    "price" : "Free",
+    "platforms" : "iPhone",
+    "use_case" : "Individual use",
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "App that types what you say",
+    "description" : "Dragon Dictation is an easy-to-use voice recognition application powered by Dragon® NaturallySpeaking® that allows you to easily speak and instantly see your text or email messages.",
+    "pros" : "It eliminates having to physically write anything. ",
+    "cons" : "It wont be effective in loud settings with lots of people",
+    "summary" : "If you hate physically writing but you love talking then you will love this app",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "17",
+    "product_label" : "Dropbox",
+    "user" : "Luke Sivley",
+    "types" : "app",
+    "url" : "https://itunes.apple.com/us/app/dropbox/id327630330?mt=8",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Its a filing cabinet in your pocket.",
+    "description" : "Dropbox is the place for your photos, docs, videos, and other files. Files you keep in Dropbox are safely backed up and you can get to them from all your devices.",
+    "pros" : "Available on all devices",
+    "cons" : "Problems uploading large files",
+    "summary" : "It stores all your information in one place",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "18",
+    "product_label" : "Duolingo",
+    "user" : "Meg Parry",
+    "types" : "app",
+    "url" : "https://en.duolingo.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Android",
+      "iPhone",
+      "Windows Phone",
+      "Apps for Windows",
+      "iPad"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Practice",
+      "Deeper Understanding"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "World Languages"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "A language learning app",
+    "description" : "A free language learning app that rivals paid programs. ",
+    "pros" : "Free, high-quality instruction. Translates real-world text & provides clear progress markers. Users are able to test out of lessons that are too easy; students can set reminder notifications.",
+    "cons" : "Only 10 language-learning programs fully supported at this time; because it's largely crowd-sourced, other language programs are in process. No live chat or spoken interaction with other students",
+    "summary" : "It's the only free language-learning program that gets it right.",
+    "tutorial_urls" : "https://www.youtube.com/watch?v=8OebgtUjLg4",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : [
+      "http://www.pcmag.com/article2/0",
+      "2817",
+      "2402570",
+      "00.asp"
+    ],
+    "stars" : "5"
+  },
+  {
+    "product_id" : "19",
+    "product_label" : "Duolingual",
+    "user" : "sarah Gravett",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "iPhone",
+      "iPad",
+      "Chrome"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Student-driven work",
+      "Practice",
+      "Homework",
+      "Deeper Understanding"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts",
+      "English Language Learning"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "It's like a digital language teacher.",
+    "description" : "An app that teaches you different languages",
+    "pros" : "Learning phrases in other languages",
+    "cons" : "Sometimes is off on conjugation",
+    "summary" : "I wanted to learn german to speak to a friend",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "20",
+    "product_label" : "easybib",
+    "user" : "Taylor Claxton",
+    "types" : "website",
+    "url" : "http://www.easybib.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Practice",
+      "Creation",
+      "Homework",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "It creates your bibliography for you.",
+    "description" : "Generate citations in MLA, APA & Chicago formats for your bibliography",
+    "pros" : "It creates your bibliography with information in the correct order.",
+    "cons" : "APA and chicago format cost money.",
+    "summary" : "Its faster and easier than creating a bibliography yourself.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "21",
+    "product_label" : "easybib",
+    "user" : "Turner Wilferth",
+    "types" : "website",
+    "url" : "http://www.easybib.com/cite/view",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Chrome"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Practice",
+      "Homework",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "cite sources in 30 seconds ",
+    "description" : "cites books, movies, websites, music, etc.",
+    "pros" : "all sources are saved on profile",
+    "cons" : "none",
+    "summary" : "easy to use",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "22",
+    "product_label" : "Editorial ",
+    "user" : "Rowan Spraker",
+    "types" : "app",
+    "url" : "https://itunes.apple.com/us/app/editorial/id673907758?mt=8",
+    "price" : "Fee",
+    "platforms" : [
+      "iPhone",
+      "Mac Apps"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Writing",
+    "grade_level" : [
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Editorial is basically a version of google docs, however, it has a dropbox feature that separates it from google docs.",
+    "description" : "Editorial has robust Dropbox sync, with version support and a healthy workflow community online that can make exporting and even publishing from the app a cinch. Editorial is the perfect combination of a great interface that adapts to your needs. Editorial is professional grade software that's a little expensive, but well worth your money.",
+    "pros" : "The Dropbox feature ",
+    "cons" : "It costs money ",
+    "summary" : "Innovation opportunity  ",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "23",
+    "product_label" : "Edmond",
+    "user" : "Lauren Levine",
+    "types" : "website",
+    "url" : "https://hcde.edmodo.com",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : "Whole-class lessons",
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Place for teachers to post assignments and send messages to the class",
+    "description" : "There wasn't one. (Edmond Is a place for students and Teachers to connect.)",
+    "pros" : "Free, Easy Access",
+    "cons" : "its by class",
+    "summary" : "If a teacher uses it it's really helpful",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "24",
+    "product_label" : "Edublogs",
+    "user" : "Rowan Spraker",
+    "types" : "website",
+    "url" : "https://edublogs.org/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Great educational blog site",
+    "description" : "Easy Blogging for education of all levels",
+    "pros" : "The customization of your personal blog. You have about 200 options as a basic format and then you can go in and change the pictures to be specific to you.",
+    "cons" : "It is hard to categorize things at first ",
+    "summary" : "Easy site great for any IB portfolio or process journal as well as just a fun blog.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "25",
+    "product_label" : "Encyclopedia Mythica",
+    "user" : "Turner Wilferth",
+    "types" : "website",
+    "url" : "http://www.pantheon.org/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Student-driven work",
+      "Homework"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Encyclopedia for Mythology",
+    "description" : "The encyclopedia will serve the serious researcher, the student, and the casual reader with equal success. Come in and enjoy!",
+    "pros" : ".org so it is reliable",
+    "cons" : "a little weird to use at first",
+    "summary" : "beneficial for projects needing reliable sources",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "26",
+    "product_label" : "essaytyper.com",
+    "user" : "Sarah Gravett",
+    "types" : "website",
+    "url" : "essaytyper.com",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "iPad"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Homework"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "It's like a virtual writer that will write essays for you",
+    "description" : "a website that types any type of essay for you.",
+    "pros" : "It is for lazy people",
+    "cons" : "Plagorize",
+    "summary" : "if you try it, be careful",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "27",
+    "product_label" : "evernote",
+    "user" : "Sarah Gravett",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : "iPhone",
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Practice",
+      "Creation",
+      "Homework",
+      "Organization"
+    ],
+    "field_of_study" : [
+      "Any subject area",
+      "English/Language Arts"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "Its an appp for writing anything from notes, papers to to-do lists",
+    "description" : "Helps you organize your personal and professional projects",
+    "pros" : "Note taking",
+    "cons" : "Not one",
+    "summary" : "Organization",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "28",
+    "product_label" : "evernote",
+    "user" : "Taylor Claxton",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : "iPhone",
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Creation",
+      "Homework",
+      "Deeper Understanding",
+      "Curriculum Planning",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "notes, reminders, check lists",
+    "description" : "notes app but with more features",
+    "pros" : "lots of features like inserting pictures or taking audio notes",
+    "cons" : "paying for premium",
+    "summary" : "its better than the apple notes app",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "29",
+    "product_label" : "EZcomma",
+    "user" : "Lauren Levine",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : "iPhone",
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Student-driven work",
+      "Practice",
+      "Deeper Understanding"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "It helps you know when to use a comma and where",
+    "description" : "BECOME A BETTER WRITER IN MINUTES... NOT YEARS!! ... with this quick, fun and simple reference App! EZCOMMA teaches the correct usage of commas and semicolons for combining sentences, the key to a more developed writing style! This App requires only a minimum of effort because EZCOMMA really is just that: EASY!! EZCOMMA features a quick navigation menu and your teacher: Mr. E. Z. Comma. His words are projected onto the screen as a visual lesson while you enjoy the original music... or mute the sound; it's your choice. The new interactive Review Section can be used as a pre-test and post-test! Present to the world as intelligent as you really are with this free download of EZCOMMA",
+    "pros" : "Easy to use",
+    "cons" : "Long lessons",
+    "summary" : "Everyone needs help with commas :)",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "30",
+    "product_label" : "Fleksy",
+    "user" : "Sarah Gravett",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Creation",
+      "Organization"
+    ],
+    "field_of_study" : "Writing",
+    "grade_level" : "All ages",
+    "teaser" : "An easy typing and creation app for the blind ",
+    "description" : "It is an app to make typing easier for the blind, but also an easy way to make gifs and so forth.",
+    "pros" : "The easy typing keyboard",
+    "cons" : "hard to navigate",
+    "summary" : "Its a good keyboard to use when you are typing on your phone",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "31",
+    "product_label" : "Fun Brain",
+    "user" : "Lauren Levine",
+    "types" : "game",
+    "url" : "http://www.funbrain.com/grammar/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : [
+      "English/Language Arts",
+      "Writing"
+    ],
+    "grade_level" : [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "teaser" : "Games to help grammar",
+    "description" : "play games to help with grammar",
+    "pros" : "free, kid friendly",
+    "cons" : "only for kids",
+    "summary" : "great grammar practice",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "32",
+    "product_label" : "Galactic Milk",
+    "user" : "Lauren Levine",
+    "types" : "website",
+    "url" : "http://galacticmilk.com/sketchpad/",
+    "price" : "Free",
+    "platforms" : "Mac",
+    "use_case" : "Individual use",
+    "field_of_study" : "Arts",
+    "grade_level" : "All ages",
+    "teaser" : "Just a fun website to draw",
+    "description" : "Tons of Colors, tools, and shapes",
+    "pros" : "Fun and Free",
+    "cons" : "Not really educational ",
+    "summary" : "Fun when you're bored",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "33",
+    "product_label" : "Games to learn English",
+    "user" : "Lauren Levine",
+    "types" : "game",
+    "url" : "https://www.gamestolearnenglish.com",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Whole-class lessons",
+      "Practice"
+    ],
+    "field_of_study" : [
+      "World Languages",
+      "English Language Learning",
+      "Writing"
+    ],
+    "grade_level" : [
+      "pre-K",
+      "K",
+      "1",
+      "2",
+      "3"
+    ],
+    "teaser" : "Games to teach people English!",
+    "description" : "Games for English Practice",
+    "pros" : "Free, Great for kids!",
+    "cons" : "No Advance levels :(",
+    "summary" : "Super Fun !",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "34",
+    "product_label" : "Gliffy",
+    "user" : "Meg Parry",
+    "types" : "website",
+    "url" : "https://www.gliffy.com/go/html5/launch?app=1b5094b0-6042-11e2-bcfd-0800200c9a66",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Student-driven work",
+      "Practice",
+      "Creation",
+      "Curriculum Planning",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Poster board online",
+    "description" : "Just drag-and-drop shapes from an extensive library and point-and-click your way to format. No expertise needed.",
+    "pros" : "Collaboration, \"lightning fast\", and you can save progress and go back.",
+    "cons" : "There aren't a whole lot of colors to choose from (important for mapping, memorization, etc.",
+    "summary" : "Fun way to work",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "35",
+    "product_label" : "Gliffy",
+    "user" : "Luke Sivley",
+    "types" : "website",
+    "url" : "https://www.gliffy.com/home/",
+    "price" : [
+      "Free",
+      "Trial"
+    ],
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Small-group lessons",
+      "Creation",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "Make Diagramming a Team Sport",
+    "description" : "Achieve visual consistency with custom templates, logos and shape libraries your entire team can create, edit and share.",
+    "pros" : "Many popular companies have used it and enjoyed it",
+    "cons" : "You have to pay for certain features",
+    "summary" : "Collaborate on flowcharts, org charts, UML, network diagrams & more.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "36",
+    "product_label" : "Gliffy.com",
+    "user" : "Rowan Spaker",
+    "types" : "website",
+    "url" : "https://www.gliffy.com/home/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Small-group lessons",
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Easy way to keep your best ideas flowing ",
+    "description" : "gliffy is a brainstorming website that creates a diagram for your best ideas and saves them through the website so that you do not forget. It is helpful because you can add in notes along with the main ideas for your brainstorming diagram.",
+    "pros" : "The notes option so you can remember every detail of the idea.",
+    "cons" : "It is not super cool looking. It is helpful but if you are a \" The more the better\" this is not the website",
+    "summary" : "It is a great way to remember every detail of your ideas",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "37",
+    "product_label" : "Goodreader",
+    "user" : "Jacob Murphy",
+    "types" : "app",
+    "url" : "",
+    "price" : "Fee",
+    "platforms" : "iPhone",
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Student-driven work",
+      "Practice",
+      "Creation",
+      "Organization"
+    ],
+    "field_of_study" : "Writing",
+    "grade_level" : "All ages",
+    "teaser" : "An app that helps you self edit your work in an organized manner. ",
+    "description" : "All you have to do is save your manuscript as a PDF. Then you can go nuts marking up your draft using sticky notes, highlighting text, inserting edits, or all of the above. It's also super easy to import, sync, and manage your files.",
+    "pros" : "The variety of sticky notes, inserting edits, and highlighting text. ",
+    "cons" : "I am not sure its effective in collaborating and sharing work with others on a separate device. ",
+    "summary" : "To be able to have an organized and digitally saved edit of all of your works ",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "38",
+    "product_label" : "GoodReads",
+    "user" : "Olivia Young",
+    "types" : "website",
+    "url" : "https://www.goodreads.com",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Student-driven work"
+    ],
+    "field_of_study" : "English/Language Arts",
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "teaser" : "Online book club social media deal thingy",
+    "description" : "Share Book Recommendations With Your Friends, Join Book Club, Answer Trivia",
+    "pros" : "keep track of what books you've read",
+    "cons" : "idk",
+    "summary" : "keep track of what you've read and find more to read",
+    "tutorial_urls" : "",
+    "restrictions" : "must make an account",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "39",
+    "product_label" : "goodreads",
+    "user" : "Taylor Claxton",
+    "types" : "website",
+    "url" : "https://www.goodreads.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "book reviews and suggestions",
+    "description" : "meet your next favorite book",
+    "pros" : "book suggestions",
+    "cons" : "bad suggestions",
+    "summary" : "book suggestions",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "40",
+    "product_label" : "Google Drive",
+    "user" : "Turner Wilferth",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Student-driven work",
+      "Practice",
+      "Creation",
+      "Homework",
+      "Deeper Understanding",
+      "Curriculum Planning",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "All projects in your pocket",
+    "description" : "never lose your work again",
+    "pros" : "auto saved work",
+    "cons" : "none",
+    "summary" : "I can use it for everything",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "41",
+    "product_label" : "google drive",
+    "user" : "Taylor Claxton",
+    "types" : "website",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Creation",
+      "Homework",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Microsoft word but better",
+    "description" : "Get access to files anywhere through secure cloud storage and file backup for your photos, videos, files and more",
+    "pros" : "not loosing work",
+    "cons" : "It's not considered as professional as Microsoft office.",
+    "summary" : "All your work is in one place",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "42",
+    "product_label" : "Google Photos",
+    "user" : "Olivia Young",
+    "types" : "app",
+    "url" : "https://itunes.apple.com/us/app/google-photos-store-search/id962194608?mt=8",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "iPad",
+      "Chrome"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : [
+      "Arts",
+      "Writing"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "outside source to store all your photos so you can free up more storage on your phone",
+    "description" : "Google Photos - store, search, and share",
+    "pros" : "facial recognition feature--classifies and sorts every face in photos",
+    "cons" : "have to go to app to send picture if you take them out of your pre-installed photos app",
+    "summary" : "more storage on phone and facial categorization",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "43",
+    "product_label" : "google slides",
+    "user" : "Taylor Claxton",
+    "types" : "website",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Creation"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "googles version of microsoft powerpoint",
+    "description" : "presentation tool",
+    "pros" : "saves automatically",
+    "cons" : "kind of boring",
+    "summary" : "Its better than powerpoint because you wont loose stuff",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "44",
+    "product_label" : "Grammar Girl",
+    "user" : "Turner Wilferth",
+    "types" : "website",
+    "url" : "http://www.quickanddirtytips.com/grammar-girl",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "Best Technological Grammar Teacher",
+    "description" : "Your friendly guide to the world of grammar, punctuation, usage, and fun developments in the English language. - See more at: http://www.quickanddirtytips.com/grammar-girl#sthash.v37CF9rX.dpuf",
+    "pros" : "Easy to use search bar",
+    "cons" : "none really. ",
+    "summary" : "Easy to use, and understand",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "45",
+    "product_label" : "Grammarly ",
+    "user" : "Turner Wilferth",
+    "types" : "website",
+    "url" : "https://www.grammarly.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Writing",
+    "grade_level" : [
+      "9",
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "The best grammar tool",
+    "description" : "Automatically checks for grammar and spelling errors",
+    "pros" : "Works on google docs, email, word, and almost everything else",
+    "cons" : "Sometimes has annoying alerts",
+    "summary" : "Always there",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "46",
+    "product_label" : "Guide to Grammar and Writing",
+    "user" : "Turner Wilferth",
+    "types" : "website",
+    "url" : "http://grammar.ccc.commnet.edu/grammar/index.htm",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "Writing for Dummies",
+    "description" : "Select a grammar or writing topic and read a excerpt with definitions and tons of examples.",
+    "pros" : "Easy tabs to open to select forms of writing",
+    "cons" : "a little difficult to figure out at first",
+    "summary" : "Easy to use, unlimited resource, relevant!",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "47",
+    "product_label" : "Hanx Writer",
+    "user" : "Meg Parry",
+    "types" : "app",
+    "url" : "none",
+    "price" : "Free",
+    "platforms" : [
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Writing",
+    "grade_level" : "All ages",
+    "teaser" : "Fun way to be motivated if you like the typewriter sound.",
+    "description" : "Actor Tom Hanks and Hitcents have partnered on a new app, Hanx Writer, that recreates the experience of a manual typewriter, but with the ease and speed of an iPad.",
+    "pros" : "The similarity to a typewriter, but the accessibility of an iPhone",
+    "cons" : "you can't delete",
+    "summary" : "its fun",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "48",
+    "product_label" : "Hemingway",
+    "user" : "Luke Sivley",
+    "types" : "website",
+    "url" : "http://www.hemingwayapp.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : [
+      "English/Language Arts",
+      "Writing"
+    ],
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "It's like have Ernest Hemingway in your living room.",
+    "description" : "The app highlights long, complex sentences and common errors",
+    "pros" : "Hemingway App makes your writing bold and clear.",
+    "cons" : "I didn't see any reviews on it",
+    "summary" : "It's your own personal editor.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "49",
+    "product_label" : "Hemingway Editor",
+    "user" : "Olivia Young",
+    "types" : "app",
+    "url" : "http://www.hemingwayapp.com",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "Chrome"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Teacher-led lessons",
+      "Student-driven work",
+      "Practice",
+      "Creation"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts",
+      "English Language Learning"
+    ],
+    "grade_level" : [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "It's like having an English teacher tell you if your writing is not good enough",
+    "description" : "Hemingway makes your writing bold and clear. It's like a spellchecker, but for style. It makes sure that your reader will focus on your message, not your prose.",
+    "pros" : "It highlights passive voice so you can change it to active voice.",
+    "cons" : "It marks almost every sentence as \"too long.\"",
+    "summary" : "It makes you feel productive to have something ~official~ check your writing.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "It only has fees if you buy the desktop version instead of using the website. Also, not compatible on iPhones.",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "50",
+    "product_label" : "Index Card",
+    "user" : "Jacob Murphy",
+    "types" : "app",
+    "url" : "",
+    "price" : "Fee",
+    "platforms" : "iPhone",
+    "use_case" : [
+      "Individual use",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Basically an App that serves the purpose of an index card.",
+    "description" : "It's literally a little cork board, specifically designed for touch screens so that you can touch and drag each one of your color-coordinated note cards.",
+    "pros" : "Its perfect for writing down ideas you suddenly get in situations where you would normally have nothing to write with. ",
+    "cons" : "It is basically the same thing as the iphone notes.",
+    "summary" : "Its a good app for organizing your work how you want it to be organized.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "51",
+    "product_label" : "instagrok",
+    "user" : "Turner Wilferth",
+    "types" : "website",
+    "url" : "https://www.instagrok.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Creation",
+      "Deeper Understanding",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Custom concept map",
+    "description" : "Your friendly guide to the world of grammar, punctuation, usage, and fun developments in the English language.",
+    "pros" : "you can search for concept maps",
+    "cons" : "none really ",
+    "summary" : "simple to customize your own concept map",
+    "tutorial_urls" : "none",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "52",
+    "product_label" : "Kaizena",
+    "user" : "Olivia Young",
+    "types" : "website",
+    "url" : "https://kaizena.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Chrome"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Student-driven work",
+      "Practice"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "Any subject area",
+      "Special Education"
+    ],
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "teaser" : "audio comment on google docs",
+    "description" : "Fast, personal feedback on student work Quickly give every student the feedback they need to improve, for free.",
+    "pros" : "audio on google docs might help kids understand comments better than written",
+    "cons" : "idk",
+    "summary" : "change it up",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "53",
+    "product_label" : "KidBlog",
+    "user" : "Rowan Spraker",
+    "types" : "website",
+    "url" : "http://kidblog.org/home/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Writing",
+    "grade_level" : "All ages",
+    "teaser" : "Very Similar to edublogs but directed toward younger audiences ",
+    "description" : "Let your class explore and post with Kidblog, this website is perfect for individual assignments and preparations for keeping up with assignments. ",
+    "pros" : "It is formatted easily. ",
+    "cons" : "It is very simple, geared toward younger audiences.",
+    "summary" : "This is great for a middle school or freshman class.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "54",
+    "product_label" : "Lino.com",
+    "user" : "Rowan Spraker",
+    "types" : "website",
+    "url" : "http://en.linoit.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Brainstorming website with a fun format",
+    "description" : "sticky and photo sharing for you.",
+    "pros" : "It is a fun format that grabs your attention.",
+    "cons" : "It is pretty basic.",
+    "summary" : "It is a good useful website.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "55",
+    "product_label" : "Lists for writers",
+    "user" : "Sarah ",
+    "types" : "app",
+    "url" : "",
+    "price" : "Fee",
+    "platforms" : [
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Practice",
+      "Creation"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "Lists of ideas for creative writing ",
+    "description" : "Literally the title describes it best",
+    "pros" : "good ideas",
+    "cons" : "Hard to navigate",
+    "summary" : "Helps come up with ideas that you wouldn't be able to think of on your own",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "56",
+    "product_label" : "Lit2Go",
+    "user" : "Luke Sivley",
+    "types" : "website",
+    "url" : "http://etc.usf.edu/lit2go/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Student-driven work",
+      "Practice"
+    ],
+    "field_of_study" : [
+      "English/Language Arts",
+      "Writing"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "It's an unlimited resource of reading",
+    "description" : "Lit2Go is a free online collection of stories and poems in Mp3 (audiobook) format. An abstract, citation, playing time, and word count are given for each of the passages. Many of the passages also have a related reading strategy identified. Each reading passage can also be downloaded as a PDF and printed for use as a read-along or as supplemental reading material for your classroom",
+    "pros" : "You can download and share with other people, like for other students.",
+    "cons" : "Some of the books you are looking for may not be available due to copyright.",
+    "summary" : "It's an easy way to read popular books and find new works as well.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "57",
+    "product_label" : "Litpick",
+    "user" : "meg parry",
+    "types" : "website",
+    "url" : "https://litpick.com/all-books",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Homework",
+      "Deeper Understanding",
+      "Curriculum Planning",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "reviews from kids who read the books!",
+    "description" : "Book reviews and books helped LitPick grow\n...and now see us all grown up into a free online reading and writing program.\nOur online interactive reading program movie\nPlease read more about our free interactive reading and writing strategy, see some of our sample book reviews, and learn how you can read and review books online for free (...that is, if you are still a student) or even become a LitPick member (...for giveaways, student book recommendations, & more).\n\nHappy LitPicking!                                                                                              \nGary (the dad)\n",
+    "pros" : "free reviews for SO MANY BOOKS!!!!",
+    "cons" : "doesn't have reviews for big-movie made books (Divergent, etc.)",
+    "summary" : "free, easy website for reviews written by kids",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "58",
+    "product_label" : "Little Explorers:  French",
+    "user" : "Olivia Young",
+    "types" : "website",
+    "url" : "http://www.enchantedlearning.com/languages/French2dictionary.html",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Student-driven work",
+      "Practice",
+      "Homework"
+    ],
+    "field_of_study" : [
+      "World Languages",
+      "Writing"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "Simple online French dictionary",
+    "description" : "This is the French - English version of our Picture Dictionary with links.",
+    "pros" : "easy to use",
+    "cons" : "looks like it was made in 2003",
+    "summary" : "if you need a quick easy french word this is the way to go",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "59",
+    "product_label" : "Maps ETC",
+    "user" : "Meg Parry",
+    "types" : "website",
+    "url" : "http://etc.usf.edu/maps/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons"
+    ],
+    "field_of_study" : [
+      "Social Studies/History",
+      "Writing"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "Fun way to learn Geography!",
+    "description" : "Welcome to ETC's collection of historic maps. Here you will find over 5,000 maps representing many different time periods. A friendly license allows teachers and students to use up to 25 maps in non-commercial school projects without further permission. All maps are available as GIF or JPEG files for screen display as well as in PDF for printing. Use the GIF or JPEG maps for classroom presentations and student websites. Use the PDF maps for displays, bulletin boards, and printed school reports.",
+    "pros" : "so many different kinds of maps",
+    "cons" : "TOO many different kinds of maps.",
+    "summary" : "if you need a map, well...",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "60",
+    "product_label" : "microsoft excel",
+    "user" : "taylor claxton",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Creation",
+      "Organization"
+    ],
+    "field_of_study" : [
+      "Math",
+      "Science",
+      "Writing"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "table for organization and stuff",
+    "description" : "layout your data",
+    "pros" : "organized",
+    "cons" : "you have to learn how to use it",
+    "summary" : "its better than writing everything",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "61",
+    "product_label" : "microsoft word",
+    "user" : "Taylor Claxton",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Creation",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "writing documents",
+    "description" : "writing",
+    "pros" : "writing",
+    "cons" : "east to lose stuff",
+    "summary" : "you can create documents",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "62",
+    "product_label" : "Mindmeister",
+    "user" : "Rowan Spraker",
+    "types" : "website",
+    "url" : "https://www.mindmeister.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons"
+    ],
+    "field_of_study" : "Writing",
+    "grade_level" : [
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Want to diagram your ideas? this is the site for you.",
+    "description" : "This site allows you to brainstorm ideas around a central topic. For example, I brainstormed around my main focus topic which was  Winter Break, then after that you can create sub topics and relate them back to each other or the main focus. ",
+    "pros" : "This website could be great for creating an outline for a film script or a book. The ability to relate subtopics back to one another would create a good way to reference back to small details that you would forget if just brainstorming through conversation. ",
+    "cons" : "On the surface it seems simple and pointless. It is something that you could do on your own with pen and paper. However, it erases the risk of loosing that paper because it is on an online and savable format. ",
+    "summary" : "It is a great way to document your brainstorming.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "63",
+    "product_label" : "MindNode",
+    "user" : "Jacob Murphy",
+    "types" : "app",
+    "url" : "",
+    "price" : "Fee",
+    "platforms" : "iPhone",
+    "use_case" : [
+      "Individual use",
+      "Creation",
+      "Curriculum Planning"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "A template for brainstorming that neatly keeps all your ideas together.",
+    "description" : "This app will let you organize all those brilliant ideas in an easy-to-follow, intuitively laid out format.",
+    "pros" : "The layout effectively keeps even the most random thoughts together. ",
+    "cons" : "You cant use the app on a computer.",
+    "summary" : "This app is perfect for the unorganized writer.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "64",
+    "product_label" : "misrosoft powerpoint",
+    "user" : "Taylor Claxton",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Creation"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "presentation tool",
+    "description" : "presentation tool",
+    "pros" : "easy to use",
+    "cons" : "it's kind of basic",
+    "summary" : "presents information simply",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "65",
+    "product_label" : "Newseum",
+    "user" : "Turner Wilferth",
+    "types" : "website",
+    "url" : "https://newseumed.org/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Student-driven work",
+      "Homework"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Learning tools on media literacy",
+    "description" : "Free learning tools on media literacy and our First Amendment freedoms.",
+    "pros" : "Newspapers from almost every city in America. And important event newspapers.",
+    "cons" : "confusing at first",
+    "summary" : "perfect for your current event articles",
+    "tutorial_urls" : "none",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "66",
+    "product_label" : "one list",
+    "user" : "Taylor Claxton",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : "iPhone",
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Homework",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "to do list on phone",
+    "description" : "to do list",
+    "pros" : "helps you stay on task",
+    "cons" : "tou cannot customize the order of the list",
+    "summary" : "you dont always have written lists with you",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "67",
+    "product_label" : "OpenDyslexic",
+    "user" : "GMK",
+    "types" : "website",
+    "url" : "http://opendyslexic.org/",
+    "price" : "Free",
+    "platforms" : "",
+    "use_case" : "",
+    "field_of_study" : "",
+    "grade_level" : "",
+    "teaser" : "A special font helpful to people with Dyslexia",
+    "description" : "Letters have heavy weighted bottoms to indicate direction. This aids in recognizing the correct letter, and sometimes keeps the brain from rotating them. ",
+    "pros" : "Makes text easier to read",
+    "cons" : "Adds an extra step, as you may have to change the font for some items you are wanting to read.",
+    "summary" : "Simple extra step is a small price to pay, especially since this feature is free!",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "68",
+    "product_label" : "Padlet",
+    "user" : "Rowan Spraker",
+    "types" : "website",
+    "url" : "https://padlet.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "It is an awesome format to communicate with your community.",
+    "description" : "Lets be realistic, facebook is out of style, twitter is a little too short, and Instagram simply wouldn't work as a mobile hangout for your community. Love to go hiking or paddle boarding? Create a mobile community on Padlet. Your padlet can extend as small as a group of locals or an entire city or state wide group. This website allows you to share information and communicate with people who shares the same interests as you. ",
+    "pros" : "It is more customization than Facebook, very similar to myspace in your individual profile customization.",
+    "cons" : "It is pretty much a glorified facebook, however. Like it said in the description facebook is out dated for a lot of people.",
+    "summary" : "It is a good way to share a common interest with a large group of people.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "69",
+    "product_label" : "Pages For Mac",
+    "user" : "Meg Parry",
+    "types" : "an app for your mac ipad or iphone",
+    "url" : "http://www.apple.com/mac/pages/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "iPhone",
+      "iPad"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Microsoft Word for a mac",
+    "description" : "Pages for Mac is a powerful word processor that gives you everything you need to create documents that look beautiful. And read beautifully. Redesigned for OS X El Capitan, it lets you work seamlessly between Mac and iOS devices. And even work effortlessly with people who use Microsoft Word.",
+    "pros" : "works great with your mac",
+    "cons" : "cant use it if you don't have a mac",
+    "summary" : "it is a great application!",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "70",
+    "product_label" : "paper",
+    "user" : "Taylor Claxton",
+    "types" : "app",
+    "url" : "https://itunes.apple.com/us/app/paper-notes-photo-annotation/id506003812?mt=8",
+    "price" : "Free",
+    "platforms" : "iPhone",
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Creation",
+      "Deeper Understanding",
+      "Curriculum Planning",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "notes on phone",
+    "description" : "notes",
+    "pros" : "notes",
+    "cons" : "Its hard to underline or bold stuff",
+    "summary" : "its better than the other notes app",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "71",
+    "product_label" : "Paper Rater",
+    "user" : "Bryson Foss",
+    "types" : "website",
+    "url" : "http://www.paperrater.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Writing",
+    "grade_level" : "All ages",
+    "teaser" : "This site is perfect for the novice writer or anyone who wants to increase their knowledge of basic grammar. An author is able to transfer a piece of content from their computer to the site and have it graded for content and grammar. Although many experienced writers no longer need a tool such as Paper Rater, the site is great for anyone who is new at the writing game or anyone who needs a free proof reader and editor for their content.",
+    "description" : "This site is perfect for the novice writer or anyone who wants to increase their knowledge of basic grammar. An author is able to transfer a piece of content from their computer to the site and have it graded for content and grammar. Although many experienced writers no longer need a tool such as Paper Rater, the site is great for anyone who is new at the writing game or anyone who needs a free proof reader and editor for their content.",
+    "pros" : "This site is perfect for the novice writer or anyone who wants to increase their knowledge of basic grammar. An author is able to transfer a piece of content from their computer to the site and have it \"graded\" for content and grammar. Although many experienced writers no longer need a tool such as Paper Rater, the site is great for anyone who is new at the writing game or anyone who needs a free proof reader and editor for their content.",
+    "cons" : "Login, might be not free?",
+    "summary" : "Easy",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "72",
+    "product_label" : "paperrater.com",
+    "user" : "Olivia Young",
+    "types" : "website",
+    "url" : "http://www.paperrater.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Practice"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts"
+    ],
+    "grade_level" : [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "teaser" : "it's a basic grammar checker for writing pieces",
+    "description" : "Pre-Grade Your Paper",
+    "pros" : "It tells you when you're overusing common phrases and gives you a sample score on your paper",
+    "cons" : "if you want the full experience you might need to pay for it",
+    "summary" : "give it a try to scan over your first draft of an essay",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "73",
+    "product_label" : "PBWORKS",
+    "user" : "Rowan Spraker",
+    "types" : "website",
+    "url" : "http://www.pbworks.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone"
+    ],
+    "use_case" : "Small-group lessons",
+    "field_of_study" : "Writing",
+    "grade_level" : [
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "It is a collaborative writing platform for projects.",
+    "description" : "Capture knowledge, share files, and manage projects within a secure, reliable environment.",
+    "pros" : "It has multiple formats ",
+    "cons" : "There is nothing wrong with the website",
+    "summary" : "Need a place that is more organized than google docs to collaboratively work on a project in a professional environment? this is it.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "74",
+    "product_label" : "Photo Bucket",
+    "user" : "Lauren Levine",
+    "types" : "website",
+    "url" : "s5.photobucket.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Creation",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Photo Storage",
+    "description" : "PhotoBucket is a place to store all your photos. You can directly have a link for your photos and edit them easily.",
+    "pros" : "It's free and an easy platform",
+    "cons" : "The photos size can change",
+    "summary" : "Free, Easy Storage",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "75",
+    "product_label" : "Phrase Checker",
+    "user" : "Lauren Levine",
+    "types" : "website",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Writing",
+    "grade_level" : "All ages",
+    "teaser" : "Kind of like last week but instead of checking the individual words, this checks phrases.",
+    "description" : "This page allows you to count the frequency usage of phrases in your work. Paste or type in your text below, and click submit",
+    "pros" : "Free, Fast, and Easy",
+    "cons" : "Website needs updating",
+    "summary" : "This helps break repeating phrases to make a paper longer",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "76",
+    "product_label" : "Pinball",
+    "user" : "Rowan Spraker",
+    "types" : "game",
+    "url" : "http://www.bbc.co.uk/scotland/pinball/",
+    "price" : "Free",
+    "platforms" : "Windows",
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Creation"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts",
+      "Arts"
+    ],
+    "grade_level" : [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Fun Game to brainstorm ideas",
+    "description" : "Pinball is a game that is run through BBC's website. It is an easy and fun way to brainstorm your ideas. There are several tabs around the outside of the  Pinball machine and then you can click on them. Type in your idea and then from that the game will provide other potential ideas and feedback for you to take in.",
+    "pros" : "It is fun and easy.",
+    "cons" : "When I first went to play it it said the content was unavailable I had to refresh the page several times for it to work.",
+    "summary" : "Brainstorming without a friend can be hard but with pinball it is easy and fun.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "77",
+    "product_label" : "Poetreat",
+    "user" : "Luke Sivley",
+    "types" : "app",
+    "url" : "https://itunes.apple.com/us/app/poetreat-write-quick-simple/id636392647?mt=8",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Practice",
+      "Creation"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts"
+    ],
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "You can rhyme anytime ",
+    "description" : "Poetreat is a poetry editor that suggests rhymes as you write. Get the best available rhymes and syllable count as you type. ",
+    "pros" : "Can help if you're having writer's block",
+    "cons" : "Not very user friendly ",
+    "summary" : "Gives rhymes and syllables as you go",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "78",
+    "product_label" : "PowToon",
+    "user" : "Seth Wicker",
+    "types" : "website",
+    "url" : "http://www.powtoon.com/?edgetrackerid=10055003352572&gclid=CjwKEAjw_ci3BRDSvfjortr--DQSJADU8f2jzRQf3Zmn412tl_BvxEF1b-Xn3GI4TEUcc4COPJ_2uRoCcrTw_wcB",
+    "price" : "Trial",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Chrome"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Student-driven work",
+      "Creation",
+      "Homework"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Like PowerPoint and Cartoons put together",
+    "description" : "Create animated videos and presentations",
+    "pros" : "You can post the videos on Youtube",
+    "cons" : "Its costs money for each month ",
+    "summary" : "Its very very cool. Its unique from other presentation programs.",
+    "tutorial_urls" : [
+      "https://youtu.be/YccXKpUJkfE",
+      "https://youtu.be/YccXKpUJkfE"
+    ],
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "79",
+    "product_label" : "Purdue Writing Lab",
+    "user" : "Luke Sivley",
+    "types" : "website",
+    "url" : "https://owl.english.purdue.edu/owl/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Teacher-led lessons",
+      "Practice",
+      "Homework"
+    ],
+    "field_of_study" : "Writing",
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "The ultimate resource for writing",
+    "description" : "These OWL resources will help you with the writing process: pre-writing (invention), developing research questions and outlines, composing thesis statements, and proofreading. While the writing process may be different for each person and for each particular assignment, the resources contained in this section follow the general work flow of pre-writing, organizing, and revising.",
+    "pros" : "It can help with any kind of writing ",
+    "cons" : "Didn't find any",
+    "summary" : "It teaches the mechanics of writing and provides the tools we need to be successful",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "80",
+    "product_label" : "Purple Planet",
+    "user" : "Rowan Spraker",
+    "types" : "website",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Rockband for free",
+    "description" : "A large archive royalty free music for any of your projects.",
+    "pros" : "It is free.",
+    "cons" : "The website is a little annoying to navigate.",
+    "summary" : "This is an easy way to download music to put over simple projects.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "81",
+    "product_label" : "Q10",
+    "user" : "Rowan Spraker",
+    "types" : "website",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Apps for Windows",
+      "Mac Apps",
+      "Chrome"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Practice",
+      "Creation"
+    ],
+    "field_of_study" : "Writing",
+    "grade_level" : [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "It is a digital personal advisore for your writing",
+    "description" : "It’s difficult for anyone to write when they are distracted. Luckily Q10 is there to minimize distractions and help to increase writing potential. This downloadable software is a full screen environment with all kinds of goodies to help you along. This app remembers what you worked on last and will automatically open it at start up. It also has a timer that you can set to remind you to take a bit of a break; you can even set a word count goal for yourself. One of the best elements of this software is the automatic save. You never have to worry about remembering to save your document while you write, because you can have Q10 save your work by the minute or by paragraphs written.",
+    "pros" : "The ability to set a timer, a lot of times when I write I get burnt out on my writing and get stuck into a state of rambling and forgetting what I have written previous ly. Q10 allows you to set a timer so you can take well needed breaks.",
+    "cons" : "It is not as glamorous as the description makes it out to be ",
+    "summary" : "It can help you better manage your time when writing to get the best possible output.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "82",
+    "product_label" : "Quizlet",
+    "user" : "Luke Sivley",
+    "types" : "app",
+    "url" : "https://quizlet.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Teacher-led lessons",
+      "Student-driven work",
+      "Practice",
+      "Creation",
+      "Homework",
+      "Deeper Understanding"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Flashcards on your phone",
+    "description" : "The best study tools should work for any curriculum, any level user, any teacher or student, anywhere in the world.",
+    "pros" : "Most love the game feature of it where you can learn and do a puzzle at the same time. ",
+    "cons" : "Most give very high reviews, bad reviews come from app functionality which have been fixed with updates.",
+    "summary" : "The flashcards, tests, and study games make it fun to learn anything.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "83",
+    "product_label" : "quizlet",
+    "user" : "Turner Wilferth",
+    "types" : "app",
+    "url" : "https://quizlet.com",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Student-driven work",
+      "Practice",
+      "Homework"
+    ],
+    "field_of_study" : [
+      "English/Language Arts",
+      "Science",
+      "Social Studies/History",
+      "Special Education",
+      "Writing"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "The perfect study tool",
+    "description" : "Quizlet's flashcards, tests, and study games make it fun to learn anything.",
+    "pros" : "Subscribe to profiles",
+    "cons" : "sometimes difficult to find class",
+    "summary" : "Easy, your own study guide",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "84",
+    "product_label" : "RefME",
+    "user" : "Seth Wicker",
+    "types" : "app",
+    "url" : "https://www.refme.com/us/",
+    "price" : "Free",
+    "platforms" : [
+      "iPhone",
+      "iPad"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Student-driven work",
+      "Creation",
+      "Homework",
+      "Organization"
+    ],
+    "field_of_study" : [
+      "English/Language Arts",
+      "Writing"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "It's like a bar code scanner and easybib put together!",
+    "description" : "The free tool to create citations, reference lists and bibliographies in any format.",
+    "pros" : "No information has to be entered, everything is automatic. The bar code scanner",
+    "cons" : "some of the books have to be entered manually",
+    "summary" : "Its very easy to use and you can automatically copy and paste it whatever you are working on if you have the google drive app on your phone. ",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "85",
+    "product_label" : "Scrivener",
+    "user" : "Jacob Murphy",
+    "types" : "app",
+    "url" : "",
+    "price" : "Fee",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Practice",
+      "Creation",
+      "Homework",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "It is a digital organizer that keeps all of your ideas stored conveniently on your laptop. ",
+    "description" : "Scrivener puts everything you need for structuring, writing and editing long documents at your fingertips.",
+    "pros" : " Scrivener lets you work in any order you want and gives you tools for planning and restructuring your writing.",
+    "cons" : "Its basically a more complex version of Microsoft Word",
+    "summary" : "To spur creativity in your writing with its alternative writing formats. ",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "86",
+    "product_label" : "Skitch ",
+    "user" : "Sarah Gravett",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : "iPhone",
+    "use_case" : [
+      "Individual use",
+      "Creation",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Its like an app were you can annotate pictures or articles more easily",
+    "description" : "It lets you annotate, mark up maps, add captions to anything",
+    "pros" : "Lets you upload pictures fast and easy",
+    "cons" : "not one",
+    "summary" : "It makes things simple when posting pictures or making captions",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "87",
+    "product_label" : "SMMHS Media Center Website",
+    "user" : "Meg Parry",
+    "types" : "website",
+    "url" : "http://www.smmhsmediacenter.net/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone",
+      "iPad",
+      "Chrome"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "teacher"
+    ],
+    "teaser" : "Online library meets morning announcements",
+    "description" : "Centrally located in the school, the SMMHS library serves the entire middle and high school population with one full-time librarian.  The library physical space includes a main area for group instruction, a small area for the desktops, the circulation desk, and the shelves holding our collections.  Additionally, there are two offices: one is the office of our head librarian, and the other is our school's gifted coordinator.  We have two labs; one is used full-time as a computer lab, the other is our school's Learning Center where students come for tutoring.  The Learning Center is funded through MEF. Additionally, we have two large storage closets: one holds our general storage materials, and the other is our a/v closet.  This unit is particularly large, so it is also the home of our school bookstore, as it has a door that opens out to the hallway.  Another room in the library is used as ISS; it is in the back corner of the library. ",
+    "pros" : "all of the useful tools with links RIGHT THERE",
+    "cons" : "too many drop down menus to look through",
+    "summary" : "you have to:)",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "88",
+    "product_label" : "Spark Notes",
+    "user" : "Meg Parry",
+    "types" : "website",
+    "url" : "http://www.sparknotes.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Student-driven work",
+      "Practice",
+      "Homework"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Great way to make sure you really understand",
+    "description" : "Provides notes in any subject area",
+    "pros" : "There are so many notes for you to borrow",
+    "cons" : "might be tempted to not actually read their books",
+    "summary" : "you need it",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "89",
+    "product_label" : "Spider Scribe",
+    "user" : "Luke Sivley",
+    "types" : "website",
+    "url" : "http://www.spiderscribe.net/",
+    "price" : "Free",
+    "platforms" : "Windows",
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "Its a concept map ",
+    "description" : "\nCapture, connect and share ideas easily!\nSpiderScribe is an online mind mapping and brainstorming tool. It lets you organize your ideas by connecting notes, files, calendar events, etc. in free-form maps. You can collaborate and share those maps online!",
+    "pros" : "sharing and collaborating online",
+    "cons" : "none",
+    "summary" : "keep all your ideas in one place",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "90",
+    "product_label" : "stop",
+    "user" : "Sarah Gravett",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone",
+      "iPad"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Practice",
+      "Deeper Understanding"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Its like words with friends mixed with trivia crack ",
+    "description" : "It is a game you play against a friend. You have 5 categories and 1 letter. You have to name words that fit each category but it has to start with that letter. You have a limited time to fill out each category.",
+    "pros" : "fun",
+    "cons" : "The loosing part",
+    "summary" : "It is fun and may help increase your vocabulary",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "91",
+    "product_label" : "Stop",
+    "user" : "Meg Parry",
+    "types" : "game",
+    "url" : "https://itunes.apple.com/us/app/stop-fun-categories-word-game/id687877464?mt=8",
+    "price" : "Free",
+    "platforms" : [
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Student-driven work",
+      "Practice",
+      "Creation"
+    ],
+    "field_of_study" : [
+      "English/Language Arts",
+      "Writing"
+    ],
+    "grade_level" : [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Words With Friends meets Trivia Crack",
+    "description" : "Fun Fast word game to keep you on your toes.",
+    "pros" : "Fun way to learn.",
+    "cons" : "Time Limit",
+    "summary" : "STOP! and get stop.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "92",
+    "product_label" : "Story Book",
+    "user" : "Rowan Spraker",
+    "types" : "app",
+    "url" : "n/a",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Android",
+      "iPhone",
+      "Apps for Windows",
+      "Mac Apps"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Practice",
+      "Creation"
+    ],
+    "field_of_study" : "Writing",
+    "grade_level" : [
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "It is digital platform to help manage your story, outline, chapters, notes, etc.",
+    "description" : "When writing a complex story with multiple plot lines, you may need a little help keeping track of all that is going on. Storybook will be there to help you through the process of writing your book by helping you to keep track of your overview. Basic Storybook has four views to help you, along with other useful tools incorporated in those views. The four views are Chronological View, Manage Chapters and Scenes View, Book View, and Reading View.",
+    "pros" : "The fact that you can access it on several different platforms",
+    "cons" : "It could have more features ",
+    "summary" : "Helps you organize your story",
+    "tutorial_urls" : "The site did not provide one ",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "93",
+    "product_label" : "Storybird",
+    "user" : "Rowan Spraker",
+    "types" : "website",
+    "url" : "http://storybird.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Writing",
+    "grade_level" : "All ages",
+    "teaser" : "A digital library of peer written short stories, novels, etc.",
+    "description" : "Write, read, discover, and share. This is a digital library filled with peer written material for your enjoyment ",
+    "pros" : "It is broad and have lots of features. It is basically a social network completely centered on writing.",
+    "cons" : "There is a lot of fan fiction and sometimes it is weird ",
+    "summary" : "If you wanna share your work but dont have the motivation to go and get it published try Storybird",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "94",
+    "product_label" : "Studious ",
+    "user" : "Luke Sivley",
+    "types" : "app",
+    "url" : "https://play.google.com/store/apps/details?id=com.young.studious",
+    "price" : "Free",
+    "platforms" : [
+      "Windows",
+      "Android"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Its a combination of an agenda mate, calendar, and alarm",
+    "description" : "Sometimes you forget to turn your phone off during classes, and that’s exactly when your parents decide to call you. This Android app will help you avoid interrupting the class and getting on the professor’s nerves.",
+    "pros" : "Most people like how it can keep all of your assignments in one place and helps remind you when you have any upcoming quizzes and tests. I thought this app would be cool because it would make your phone less of a distraction. ",
+    "cons" : "Some people had navigational and user issues, but those could be easily fixed with updates. ",
+    "summary" : "No more interruptions while you're working ",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "I know this app does not have to do with writing, but I just thought it was a cool idea for an app. I said that teachers could use it too because many teacher's phones go off during class as well or they could use it as a planner. ",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "95",
+    "product_label" : "Study Island",
+    "user" : "Luke Sivley",
+    "types" : "website",
+    "url" : "http://www.studyisland.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Whole-class lessons",
+      "Student-driven work",
+      "Practice",
+      "Homework"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "It's learning that works for everyone and everywhere",
+    "description" : "Study Island’s high-impact, high-value K-12 learning programs provide proven academic support through practice, immediate feedback, and built-in remediation to improve students’ performance in core skill areas. Paired with an intuitive, real-time data dashboard, educators can easily track student progress and differentiate instruction to continually drive student achievement.",
+    "pros" : "It has games for kids so they can learn while they play",
+    "cons" : "Some people might not like using the computer as much as on paper",
+    "summary" : "It is a fun way to learn for all ages",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "96",
+    "product_label" : "TED-Ed",
+    "user" : "Olivia Young",
+    "types" : "website",
+    "url" : "http://ed.ted.com/search?utf8=%E2%9C%93&qs=writing",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone",
+      "iPad",
+      "Kindle Fire",
+      "Nook",
+      "Chrome"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Student-driven work",
+      "Practice",
+      "Deeper Understanding"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "A host of videos on every subject imaginable (including writing)",
+    "description" : "Lessons worth sharing",
+    "pros" : "The videos are cute and informative",
+    "cons" : "Sometimes it's hard to pay attention for a video if it's not very engaging.",
+    "summary" : "Entertaining, educational videos.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "97",
+    "product_label" : "Text 2 Mind Map",
+    "user" : "Luke Sivley",
+    "types" : "website",
+    "url" : "https://www.text2mindmap.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "It's a central place for all your ideas",
+    "description" : "Mind maps are a great way of organizing your thoughts. To encourage the use of mind mapping, Text 2 Mind Map has provided a free and simple mind mapping tool",
+    "pros" : "You can have endless branches of ideas off of one topic",
+    "cons" : "You have to pay for certain features",
+    "summary" : "You can use Text2MindMap for all your projects, it is perfect for keeping focused on what's important.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "98",
+    "product_label" : "The Brainstormer ",
+    "user" : "Jacob Murphy",
+    "types" : "app",
+    "url" : "",
+    "price" : "Fee",
+    "platforms" : "iPhone",
+    "use_case" : [
+      "Individual use",
+      "Creation",
+      "Organization"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "It is a simple app that helps you brain storm ideas through a random algorithm that combines ideas and plots you get to choose from.",
+    "description" : "You just spin the wheel to randomly combine a plot, a subject, and a setting or style. Either use the included wheels, or edit the wheels to build entirely new scenarios (like with your own characters and settings).",
+    "pros" : "It will most definitely help writers that easily get stuck or hit a wall when writing. ",
+    "cons" : "Some writers may feel like using this app is cheating or inauthentic. ",
+    "summary" : "To help brainstorm ideas for a story once you have a vague idea of what it is you want to write about. ",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "99",
+    "product_label" : "The Living Room Candidate",
+    "user" : "Olivia Young",
+    "types" : "website",
+    "url" : "http://www.livingroomcandidate.org/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Student-driven work"
+    ],
+    "field_of_study" : [
+      "Social Studies/History",
+      "Writing"
+    ],
+    "grade_level" : [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "All presidential candidate campaign commercials from 1952-2012",
+    "description" : "Museum of the moving image:  Presidential Campaign Commercials 1952-2012",
+    "pros" : "See how candidates went head to head over the past 50 years",
+    "cons" : "N/A",
+    "summary" : "If you're doing a project on presidents or campaigns, this is a good resource for you",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "100",
+    "product_label" : "The Morgue File",
+    "user" : "Meg Parry",
+    "types" : "website",
+    "url" : "http://morguefile.com/search/morguefile/2/pop",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Creation"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Photo bank",
+    "description" : "http://morguefile.com/search/morguefile/2/pop",
+    "pros" : "Free quality grade pictures!",
+    "cons" : "Maybe too many pictures",
+    "summary" : "Its free!!!",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "101",
+    "product_label" : "The Phrontistrey",
+    "user" : "Lauren Levine",
+    "types" : "website",
+    "url" : "http://phrontistery.info/i.html",
+    "price" : "Free",
+    "platforms" : "Mac",
+    "use_case" : "Individual use",
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "A Dictionary For Unusual Words",
+    "description" : "A 17,000-word dictionary of rare, cool, and unusual words",
+    "pros" : "Free, Super Easy",
+    "cons" : "Nothing!",
+    "summary" : "Great for Random Vocabulary Words",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "102",
+    "product_label" : "Thesaurus.com",
+    "user" : "Taylor Claxton",
+    "types" : "website",
+    "url" : "http://www.thesaurus.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone",
+      "iPad",
+      "Kindle Fire",
+      "Nook",
+      "Chrome"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Creation"
+    ],
+    "field_of_study" : [
+      "English/Language Arts",
+      "Arts",
+      "English Language Learning",
+      "Writing"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "A website for synonyms.",
+    "description" : "Online thesaurus",
+    "pros" : "easy to use",
+    "cons" : "nothing really",
+    "summary" : "You can find words that sound better for your writing.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "103",
+    "product_label" : "Titan Pad",
+    "user" : "Seth Wicker",
+    "types" : "website",
+    "url" : "https://titanpad.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Chrome"
+    ],
+    "use_case" : [
+      "Small-group lessons",
+      "Whole-class lessons"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "teaser" : "Its like Google Docs",
+    "description" : " lets people work on one document simultaneously",
+    "pros" : "Its free",
+    "cons" : "You cant save your work on the website",
+    "summary" : "It allows people to work in groups with people who don't have a gmail. ",
+    "tutorial_urls" : "n/a",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "104",
+    "product_label" : "TitanPad",
+    "user" : "Meg Parry",
+    "types" : "website",
+    "url" : "https://titanpad.com/jC5y1cXwP6",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "iPad"
+    ],
+    "use_case" : [
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Student-driven work",
+      "Practice",
+      "Creation",
+      "Homework"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Google Docs Twin",
+    "description" : "TitanPad lets people work on one document simultaneously",
+    "pros" : "Each person's words that they type are highlighted in their own color",
+    "cons" : "it deletes your stuff after a certain period of time based on the number of revisions.",
+    "summary" : "you can see who is responsible for what",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "105",
+    "product_label" : "Triptico",
+    "user" : "Luke Sivley",
+    "types" : "website",
+    "url" : "https://www.tripticoplus.com/index.php#top",
+    "price" : "Free",
+    "platforms" : "Windows",
+    "use_case" : [
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Organization"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Its a blog for teachers",
+    "description" : "Access the site wherever you are and on any computer.\nBuild your own library of interactive learning resources.\nJoin groups and share activities with colleagues",
+    "pros" : "You can make lessons in different languages",
+    "cons" : "none",
+    "summary" : "It has lessons inspired by teachers from all over the world",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "106",
+    "product_label" : "turnitin",
+    "user" : "Taylor Claxton",
+    "types" : "website",
+    "url" : "http://turnitin.com/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Creation",
+      "Organization"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "Science",
+      "Social Studies/History",
+      "Arts"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "Its a combination of an agenda mate, calendar, and alarm",
+    "description" : "Improve Student Writing with Instant Feedback as They Revise",
+    "pros" : "checks for plagiarism",
+    "cons" : "using paper is easier",
+    "summary" : "turn stuff in online",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "107",
+    "product_label" : "Ulysses III",
+    "user" : "Turner Wilferth",
+    "types" : "app",
+    "url" : "http://www.ulyssesapp.com/",
+    "price" : "Fee",
+    "platforms" : [
+      "Mac",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Whole-class lessons",
+      "Homework",
+      "Organization"
+    ],
+    "field_of_study" : "Writing",
+    "grade_level" : [
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Ultimate focus writing tool with built in library for your own works.",
+    "description" : "Ulysses for Mac lets you focus when you need to concentrate. It keeps all your texts neatly stuffed in its intuitive library. With a few clicks, Ulysses can create beautiful documents from your manuscripts: PDFs, web pages, even iBooks-ready ePubs. With its simple, clutter-free interface, it will turn work hours into fun time. And mere thoughts into powerful stories. If you love to write, and write a lot, Ulysses is made for you.",
+    "pros" : "diverse in the types of documents you can make.",
+    "cons" : "Expensive",
+    "summary" : "Very simple, no distractions",
+    "tutorial_urls" : "http://www.ulyssesapp.com/",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "4"
+  },
+  {
+    "product_id" : "108",
+    "product_label" : "Visual Einstein",
+    "user" : "Turner Wilferth",
+    "types" : "app",
+    "url" : "http://vizual-einstein-me.software.informer.com/8.0/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Student-driven work"
+    ],
+    "field_of_study" : "Writing",
+    "grade_level" : "All ages",
+    "teaser" : "best for a large amount of references ",
+    "description" : "Visual Einstein is free downloadable software that can be useful for all types of people. This application helps you to organize your writing project by using notes, headings, hyperlinks, and subheadings. Visual Einstein is most helpful when you have a lot of reference information.",
+    "pros" : "organization of references",
+    "cons" : "none",
+    "summary" : "if you like googledocs you will love visual Einstein",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "2"
+  },
+  {
+    "product_id" : "109",
+    "product_label" : "Voki",
+    "user" : "Turner Wilferth",
+    "types" : "website",
+    "url" : "http://www.voki.com/presenter/index",
+    "price" : [
+      "Trial",
+      "Fee"
+    ],
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : "Whole-class lessons",
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Automated powerpoint",
+    "description" : "Manage Students\nAdd and manage your students. Assign students to one or more classes and give them each a unique login. There's no need for students to register! \nManage Classes & Lessons\nAdd and manage classes and lessons. Customize the appearance and instructions of each lesson. Students can easily view and complete their Voki assignments from the Student view. \nReview Vokis\nEasily review your students' Voki assignments in one place. Review and approve all students Vokis by lesson, or by student.",
+    "pros" : "good for multi tasking",
+    "cons" : "does not really seem necessary ",
+    "summary" : "nervous about presenting? Have your avatar do it for you!",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "110",
+    "product_label" : "Wattpad",
+    "user" : "Lauren",
+    "types" : "website",
+    "url" : "https://www.wattpad.com",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Creation"
+    ],
+    "field_of_study" : "Writing",
+    "grade_level" : [
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "A place for people to post their writings and read others work",
+    "description" : "Wattpad has all the stories you need, and we make it easy to read—right on your phone. Whether you're online or offline, you can read seamlessly without worrying about downloading PDFs.",
+    "pros" : "Free, Easy to Use",
+    "cons" : "Nothing",
+    "summary" : "Anyone can use!",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "111",
+    "product_label" : "Werdsmith",
+    "user" : "Sarah Gravett",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Writing",
+    "grade_level" : "All ages",
+    "teaser" : "werdsmith turns your advice into a portable writing studio",
+    "description" : "helps to control your writing",
+    "pros" : "very convienent",
+    "cons" : "uses a lot of storage",
+    "summary" : "if your a writer get this app",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "112",
+    "product_label" : "whatsapp",
+    "user" : "Sarah Gravett",
+    "types" : "messenger",
+    "url" : "",
+    "price" : [
+      "Free",
+      "Trial"
+    ],
+    "platforms" : [
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Small-group lessons",
+      "Practice",
+      "Deeper Understanding",
+      "Organization"
+    ],
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts",
+      "World Languages"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "Its a messanger that will go across the sea",
+    "description" : "It is a messenger app where you can text/call/send pictures to people in other countries",
+    "pros" : "I can text my exchange partner in Germany ",
+    "cons" : "Doesn't really have one",
+    "summary" : "Free messenging to other countries",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "113",
+    "product_label" : "Word Flow Keyboard",
+    "user" : "Luke Sivley",
+    "types" : "app",
+    "url" : "https://itunes.apple.com/us/app/word-flow-keyboard-english/id1077864246?mt=8",
+    "price" : "Free",
+    "platforms" : [
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "When you're too lazy to type with two hands",
+    "description" : "Word Flow for iPhone, a Microsoft Garage project, is a blazing fast keyboard that comes with free customization options and includes Arc mode for easy, ergonomic one-handed typing.",
+    "pros" : "Very easy to use and is seamless ",
+    "cons" : "Still has a few bugs being an early app",
+    "summary" : "It makes typing and texting faster and easier",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "114",
+    "product_label" : "Word Frequency Counter",
+    "user" : "Lauren Levine",
+    "types" : "website",
+    "url" : "http://www.writewords.org.uk/word_count.asp",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone",
+      "Windows Phone",
+      "iPad",
+      "Kindle Fire",
+      "Chrome"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : [
+      "Writing",
+      "English/Language Arts",
+      "Science",
+      "Social Studies/History",
+      "English Language Learning"
+    ],
+    "grade_level" : [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Paste your paper into the box and it tells you how many times each word is repeated. ",
+    "description" : "Our word frequency counter allows you to count the frequency usage of each word in your text. Paste or type in your text below, and click submit. Also try our Phrase Frequency Counter \n",
+    "pros" : "Free and stops us from overusing a word ",
+    "cons" : "Maybe  just update the website it's not pretty to look at",
+    "summary" : "We all over-use words and this stops it and shows how often we repeat ourselves",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "3"
+  },
+  {
+    "product_id" : "115",
+    "product_label" : "Words with friends ",
+    "user" : "sarah gravett",
+    "types" : "game",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Android",
+      "iPhone",
+      "Mac Apps",
+      "iPad",
+      "Kindle Fire"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Practice",
+      "Deeper Understanding"
+    ],
+    "field_of_study" : [
+      "English/Language Arts",
+      "English Language Learning",
+      "Writing"
+    ],
+    "grade_level" : "All ages",
+    "teaser" : "Its like scrabble ",
+    "description" : "it's basically scrabble against another player",
+    "pros" : "You can make up words and it will sometimes take them.",
+    "cons" : "Running out of room",
+    "summary" : "It is fun to play against your friends.",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "116",
+    "product_label" : "WordSearch",
+    "user" : "Meg Parry",
+    "types" : "game",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Any subject area",
+    "grade_level" : "All ages",
+    "teaser" : "Customizable Word Search on your phone!",
+    "description" : "Word Search with tons of categories!",
+    "pros" : "You can choose the category, the colors, themes, and difficulty level.",
+    "cons" : "You have to pay for some things.",
+    "summary" : "it's a fun game to play!",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "117",
+    "product_label" : "Write 2 Lite",
+    "user" : "Luke Sivley",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "iPhone",
+      "iPad"
+    ],
+    "use_case" : [
+      "Individual use",
+      "Student-driven work",
+      "Practice",
+      "Creation",
+      "Organization"
+    ],
+    "field_of_study" : [
+      "English/Language Arts",
+      "Social Studies/History",
+      "English Language Learning",
+      "Writing"
+    ],
+    "grade_level" : [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "Its an easy note taking application that you can take anywhere via your cell phone",
+    "description" : "The ultimate note taking, writing and markdown editing app. ",
+    "pros" : "It is simple to use",
+    "cons" : "Not enough storage or file space",
+    "summary" : "It's convenient ",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
+  },
+  {
+    "product_id" : "118",
+    "product_label" : "Write 4 Fun",
+    "user" : "Lauren Levine",
+    "types" : "website",
+    "url" : "http://www.write4fun.net/short-stories/",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows",
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Writing",
+    "grade_level" : [
+      "9",
+      "10",
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "A Place to Write your own story and share it for feedback",
+    "description" : "Write4Fun is a place to write your own story and upload it for anyone to read. ",
+    "pros" : "Free, no judgment ",
+    "cons" : "Kind of Childish",
+    "summary" : "You can read others stories and write your own",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "119",
+    "product_label" : "Write or Die: Great for Procrastinators",
+    "user" : "Bryson foss",
+    "types" : "app",
+    "url" : "",
+    "price" : "Free",
+    "platforms" : [
+      "Android",
+      "iPhone"
+    ],
+    "use_case" : "Individual use",
+    "field_of_study" : "Writing",
+    "grade_level" : "All ages",
+    "teaser" : "Write or Die claims to put the “prod” in productivity by using negative reinforcement.",
+    "description" : "Write or Die claims to put the “prod” in productivity by using negative reinforcement.",
+    "pros" : "Keeps you working.",
+    "cons" : "Its mean.",
+    "summary" : "Pushes",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "0"
+  },
+  {
+    "product_id" : "120",
+    "product_label" : "Your Dictionary",
+    "user" : "Lauren Levine",
+    "types" : "website",
+    "url" : "http://www.yourdictionary.com",
+    "price" : "Free",
+    "platforms" : "Mac",
+    "use_case" : "Individual use",
+    "field_of_study" : [
+      "English/Language Arts",
+      "Writing"
+    ],
+    "grade_level" : [
+      "11",
+      "12",
+      "college"
+    ],
+    "teaser" : "Personal Dictionary",
+    "description" : "It's a comprehensive reference site with synonyms, sentence examples, quotes, biographies, and an amazing collection of grammar-related articles and education resources for students, teachers, parents and homeschoolers\nRead more at http://www.yourdictionary.com/#MHXD8E3IHod71OfQ.99",
+    "pros" : "Free, saves your searches",
+    "cons" : "You have to sign up",
+    "summary" : "Easy to use",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "1"
+  },
+  {
+    "product_id" : "121",
+    "product_label" : "Zoho Show",
+    "user" : "Olivia Young",
+    "types" : "website",
+    "url" : "https://www.zoho.com/docs/show.html",
+    "price" : "Free",
+    "platforms" : [
+      "Mac",
+      "Windows"
+    ],
+    "use_case" : [
+      "Whole-class lessons",
+      "Teacher-led lessons",
+      "Student-driven work"
+    ],
+    "field_of_study" : "Any subject area",
+    "grade_level" : [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "college",
+      "teacher"
+    ],
+    "teaser" : "Free presentation software",
+    "description" : "Zoho Show lets you create, collaborate, present, broadcast and publish presentations, the smarter way.",
+    "pros" : "looks more advanced than most powerpoints",
+    "cons" : "have to learn how to use it",
+    "summary" : "it looks like a good replacement for powerpoint/google slides",
+    "tutorial_urls" : "",
+    "restrictions" : "",
+    "comments" : "",
+    "review_links" : "",
+    "stars" : "5"
   }
-}
+]
