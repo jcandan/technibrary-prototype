@@ -82,6 +82,11 @@ body {
   border-radius: 0;
 }
 
+#facets {
+  .bottomline {
+    display: none;
+  }
+}
 /*
  * Results
  */
