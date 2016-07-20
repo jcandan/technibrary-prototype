@@ -39,8 +39,7 @@ gulp.task('js', function() {
             config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.min.js',
             config.bowerDir + '/jquery/dist/jquery.min.js',
             config.bowerDir + '/underscore/underscore-min.js',
-            config.bowerDir + '/facetedsearch/facetedsearch.js',
-            config.bowerDir + '/sheetrock/dist/sheetrock.min.js'
+            config.bowerDir + '/facetedsearch/facetedsearch.js'
         ])
         .pipe(gulp.dest('./assets/js'));
 });
