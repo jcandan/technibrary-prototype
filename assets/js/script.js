@@ -1,4 +1,52 @@
 (function($){
+  var labels = {
+    "types": "Types",
+    "stars": "User Rating",
+    "url": "Url",
+    "price": "Price",
+    "platforms": "Platforms",
+    "usecase": "Use Case",
+    "fieldofstudy": "Field of Study",
+    "gradelevel": "Grade Level",
+    "description": "Description",
+    "pros": "Best Feature",
+    "cons": "Worst Feature",
+    "summary": "The Final Word",
+  };
+
+  $('#compare-btn').click(function(ev) {
+    var checked_values = $('input[name=compare]:checked').map(function () {
+      return this.value;
+    }).get();
+
+    var compared = items.filter(function(a) {
+      return checked_values.indexOf(a.productid) > -1;
+    })
+
+    var compared_tpl = "<table class='table table-bordered table-responsive'>" +
+      "<thead>" +
+        "<tr>" +
+          "<th></th>" +
+          "<% _.each(items, function(item) { %>" +
+            "<th><%= item.productlabel %></th>" +
+          "<% }); %>" +
+        "</tr>" +
+      "</thead>" +
+      "<tbody>" +
+        "<% _.each(labels, function(label, col) { %>" +
+          "<tr>" +
+            "<th scope='row' class='text-uppercase'><%= label %></th>" +
+            "<% _.each(items, function(item){ %>" +
+              "<td><%= item[col] %></td>" +
+            "<% }); %>" +
+          "</tr>" +
+        "<% }); %>" +
+      "</tbody>" +
+    "</table>";
+
+    $(".modal-body").html(_.template(compared_tpl, {items: compared, labels: labels}));
+  });
+
   var item_template =
     '<div class="card">' +
     '<div class="card-container">' +
