@@ -54,7 +54,7 @@
     '<img src="assets/images/default-product.png" width="100%" height="100%" class="img-thumbnail" />' +
     '</div>' +
     '<div class="card-content col-sm-7">' +
-    '<div class="checkbox"><label><input type="checkbox" name="compare" value="<%= obj.productid %>" />Compare</label></div>' +
+    '<div class="checkbox"><label><input type="checkbox" name="compare" value="<%= obj.productid %>" data-product-label="<%= obj.productlabel %>"/>Compare</label></div>' +
     '<a href="#"><h3 class="card-title"><%= obj.productlabel %></h3></a>' +
     '<div class="pricing">' +
     '<span><%= obj.price %></span>' +
