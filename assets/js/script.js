@@ -125,6 +125,18 @@
     }
 
     $.facetelize(settings);
+
+    $('input[name=compare]').change(function () {
+      var checked_values = $('input[name=compare]:checked').map(function () {
+        return this.value;
+      }).get();
+
+      if(checked_values.length > 3) {
+        alert("That's too many to compare at once. Feel free to remove one or more marked for comparison before adding another.");
+        $(this).attr('checked', false);
+      }
+    });
+
   });
   $('[data-toggle="tooltip"]').tooltip()
 })(jQuery);
