@@ -148,8 +148,11 @@
         this.parentElement.remove();
         $('input:checkbox[name=compare][value=' + this.id + ']').attr('checked', false);
       });
+      $('[data-toggle="tooltip"]').tooltip()
     });
 
     $('[data-toggle="tooltip"]').tooltip()
   });
+
+  $('[data-toggle="tooltip"]').tooltip()
 })(jQuery);
