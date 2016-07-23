@@ -138,6 +138,7 @@
 
 function compareListUpdate() {
   $('.compare-list-item').remove();
+  $('input:checkbox[name=compare]').attr('checked', false);
 
   $('input[name=compare]').change(function () {
     var checked_values = $('input[name=compare]:checked').map(function () {
