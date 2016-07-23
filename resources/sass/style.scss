@@ -83,8 +83,16 @@ body {
 }
 
 #facets {
-  .bottomline {
+  .orderby {
     display: none;
+  }
+  .deselectstartover {
+    cursor: pointer;
+    color: #009ECA;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
   }
 }
 /*

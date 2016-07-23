@@ -8070,8 +8070,14 @@ body {
   border: 0;
   border-radius: 0; }
 
-#facets .bottomline {
+#facets .orderby {
   display: none; }
+
+#facets .deselectstartover {
+  cursor: pointer;
+  color: #009ECA; }
+  #facets .deselectstartover:hover, #facets .deselectstartover:focus {
+    text-decoration: underline; }
 
 /*
  * Results
