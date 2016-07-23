@@ -8131,3 +8131,6 @@ body {
     border: 1px solid #333; }
     #compare-list span.compare-list-item a:hover, #compare-list span.compare-list-item a:focus {
       text-decoration: none; }
+
+.modal-dialog {
+  width: 85%; }
