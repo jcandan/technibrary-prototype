@@ -135,8 +135,21 @@
         alert("That's too many to compare at once. Feel free to remove one or more marked for comparison before adding another.");
         $(this).attr('checked', false);
       }
+      else {
+        if(this.checked) {
+          $('#compare-list').append('<span class="compare-list-item"><img src="assets/images/default-product.png" width="30" height="30" class="img-thumbnail" id="' + this.value + '" /><a href="#" data-toggle="tooltip" data-placement="bottom" title="Remove from comparison" id="' + this.value + '">x</a></span>');
+        }
+        else {
+          $('.compare-list-item#' + this.value).remove();
+        }
+      }
+
+      $('.compare-list-item a').click(function() {
+        this.parentElement.remove();
+        $('input:checkbox[name=compare][value=' + this.id + ']').attr('checked', false);
+      });
     });
 
+    $('[data-toggle="tooltip"]').tooltip()
   });
-  $('[data-toggle="tooltip"]').tooltip()
 })(jQuery);
