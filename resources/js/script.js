@@ -76,7 +76,7 @@
     '<hr />';
 
   // Define spreadsheet URL.
-  var mySpreadsheet = 'https://spreadsheets.google.com/feeds/list/1wrOPUAxTewDOBvY5iInMEEkXZiIF6yervNQbW7dTX1Q/od6/public/values?alt=json';
+  var mySpreadsheet = 'https://spreadsheets.google.com/feeds/list/1z12MfVrQEPiLD0EzTNMgEe63jiezlAZZugasHq9REwU/od6/public/values?alt=json';
 
   // build items object array
   var items = [];
