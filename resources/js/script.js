@@ -137,7 +137,7 @@
       }
       else {
         if(this.checked) {
-          $('#compare-list').append('<span class="compare-list-item"><img src="assets/images/default-product.png" width="30" height="30" class="img-thumbnail" id="' + this.value + '" /><a href="#" data-toggle="tooltip" data-placement="bottom" title="Remove from comparison" id="' + this.value + '">x</a></span>');
+          $('#compare-list').append('<span class="compare-list-item" id="' + this.value + '"><img src="assets/images/default-product.png" width="30" height="30" class="img-thumbnail" /><a href="#" data-toggle="tooltip" data-placement="bottom" title="Remove ' + this.getAttribute('data-product-label') + ' from comparison" id="' + this.value + '">x</a></span>');
         }
         else {
           $('.compare-list-item#' + this.value).remove();
