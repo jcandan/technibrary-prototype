@@ -126,33 +126,43 @@
 
     $.facetelize(settings);
 
-    $('input[name=compare]').change(function () {
-      var checked_values = $('input[name=compare]:checked').map(function () {
-        return this.value;
-      }).get();
+    compareListUpdate();
 
-      if(checked_values.length > 3) {
-        alert("That's too many to compare at once. Feel free to remove one or more marked for comparison before adding another.");
-        $(this).attr('checked', false);
-      }
-      else {
-        if(this.checked) {
-          $('#compare-list').append('<span class="compare-list-item" id="' + this.value + '"><img src="assets/images/default-product.png" width="30" height="30" class="img-thumbnail" /><a href="#" data-toggle="tooltip" data-placement="bottom" title="Remove ' + this.getAttribute('data-product-label') + ' from comparison" id="' + this.value + '">x</a></span>');
-        }
-        else {
-          $('.compare-list-item#' + this.value).remove();
-        }
-      }
-
-      $('.compare-list-item a').click(function() {
-        this.parentElement.remove();
-        $('input:checkbox[name=compare][value=' + this.id + ']').attr('checked', false);
-      });
-      $('[data-toggle="tooltip"]').tooltip()
+    $(settings.resultSelector).bind("facetedsearchresultupdate", function(){
+      compareListUpdate();
     });
-
-    $('[data-toggle="tooltip"]').tooltip()
   });
 
   $('[data-toggle="tooltip"]').tooltip()
 })(jQuery);
+
+function compareListUpdate() {
+  $('.compare-list-item').remove();
+
+  $('input[name=compare]').change(function () {
+    var checked_values = $('input[name=compare]:checked').map(function () {
+      return this.value;
+    }).get();
+
+    if(checked_values.length > 3) {
+      alert("That's too many to compare at once. Feel free to remove one or more marked for comparison before adding another.");
+      $(this).attr('checked', false);
+    }
+    else {
+      if(this.checked) {
+        $('#compare-list').append('<span class="compare-list-item" id="' + this.value + '"><img src="assets/images/default-product.png" width="30" height="30" class="img-thumbnail" /><a href="#" data-toggle="tooltip" data-placement="bottom" title="Remove ' + this.getAttribute('data-product-label') + ' from comparison" id="' + this.value + '">x</a></span>');
+      }
+      else {
+        $('.compare-list-item#' + this.value).remove();
+      }
+    }
+
+    $('.compare-list-item a').click(function() {
+      this.parentElement.remove();
+      $('input:checkbox[name=compare][value=' + this.id + ']').attr('checked', false);
+    });
+    $('[data-toggle="tooltip"]').tooltip()
+  });
+
+  $('[data-toggle="tooltip"]').tooltip()
+}
