@@ -99,6 +99,15 @@ li a {
     }
   }
 }
+
+.social-buttons {
+  clear: both;
+  float: right;
+  .btn {
+    padding: 6px;
+  }
+}
+
 /*
  * Results
  */
@@ -109,15 +118,6 @@ li a {
   .card {
     position: relative;
     min-height: 200px;
-    .card-actions{
-      .result-buttons {
-        clear: both;
-        float: right;
-        .btn {
-          padding: 6px;
-        }
-      }
-    }
     .card-container {
       .card-content {
         position: relative;

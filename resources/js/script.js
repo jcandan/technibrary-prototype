@@ -65,7 +65,7 @@
     '</div>' +
     '<div class="card-actions col-sm-2 pull-right">' +
     '<button type="button" class="close" data-hide="<%= obj.productid %>"  data-toggle="tooltip" data-placement="right" title="Hide this result from future searches">&times;</button>' +
-    '<div class="result-buttons">' +
+    '<div class="social-buttons">' +
     '<button type="button" class="btn btn-primary fa fa-heart" data-favorite="<%= obj.productid %>" data-toggle="tooltip" data-placement="bottom" title="Add to favorites"></button>' +
     '<button type="button" class="btn btn-primary fa fa-share" data-share="<%= obj.productid %>" data-toggle="tooltip" data-placement="bottom" title="Share with friends"></button>' +
     '</div>' +

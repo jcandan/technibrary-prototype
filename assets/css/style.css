@@ -8082,6 +8082,12 @@ li a {
   #facets .deselectstartover:hover, #facets .deselectstartover:focus {
     text-decoration: underline; }
 
+.social-buttons {
+  clear: both;
+  float: right; }
+  .social-buttons .btn {
+    padding: 6px; }
+
 /*
  * Results
  */
@@ -8091,11 +8097,6 @@ li a {
 #results .card {
   position: relative;
   min-height: 200px; }
-  #results .card .card-actions .result-buttons {
-    clear: both;
-    float: right; }
-    #results .card .card-actions .result-buttons .btn {
-      padding: 6px; }
   #results .card .card-container .card-content {
     position: relative;
     min-height: 200px; }
