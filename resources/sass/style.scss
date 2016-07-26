@@ -14,6 +14,10 @@ body {
   margin-bottom: $footer-height;
 }
 
+li a {
+  cursor: pointer;
+}
+
 .form-control:focus {
   border-color: $brand-primary;
 }

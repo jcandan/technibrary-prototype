@@ -8017,6 +8017,9 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 120px; }
 
+li a {
+  cursor: pointer; }
+
 .form-control:focus {
   border-color: #009ECA; }
 
