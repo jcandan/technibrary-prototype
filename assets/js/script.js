@@ -31,7 +31,13 @@
         "<tr>" +
           "<th></th>" +
           "<% _.each(items, function(item) { %>" +
-            "<th><%= item.productlabel %></th>" +
+            "<th>" +
+              '<div class="social-buttons">' +
+              '<button type="button" class="btn btn-primary fa fa-heart" data-favorite="<%= obj.productid %>" data-toggle="tooltip" data-placement="bottom" title="Add to favorites"></button>' +
+              '<button type="button" class="btn btn-primary fa fa-share" data-share="<%= obj.productid %>" data-toggle="tooltip" data-placement="bottom" title="Share with friends"></button>' +
+              '</div>' +
+              "<img src='assets/images/default-product.png' width='100px' height='100px' class='img-thumbnail' /><br /><%= item.productlabel %>" +
+            "</th>" +
           "<% }); %>" +
         "</tr>" +
       "</thead>" +
@@ -44,6 +50,11 @@
             "<% }); %>" +
           "</tr>" +
         "<% }); %>" +
+        "<tr>" +
+          "<th scope='row' class='text-uppercase'>Learn more</th>" +
+          "<% _.each(items, function(item){ %>" +
+            "<td>Want to learn more?<br/><a href='#' id='product-btn' class='btn bg-primary' type='button'>VIEW PRODUCT</a></td>" +
+          "<% }); %>" +
       "</tbody>" +
     "</table>";
 
