@@ -14,11 +14,14 @@
     "summary": "The Final Word",
   };
 
+  // event listener for Compare button, show comparison table
   $('#compare-btn').click(function(ev) {
+    // store items marked for comparison
     var checked_values = $('input[name=compare]:checked').map(function () {
       return this.value;
     }).get();
 
+    // get list of objects for comparison
     var compared = items.filter(function(a) {
       return checked_values.indexOf(a.productid) > -1;
     })
@@ -78,9 +81,10 @@
   // Define spreadsheet URL.
   var mySpreadsheet = 'https://spreadsheets.google.com/feeds/list/1z12MfVrQEPiLD0EzTNMgEe63jiezlAZZugasHq9REwU/od6/public/values?alt=json';
 
-  // build items object array
+  // connect to Google Spreadsheet
   var items = [];
   $.getJSON(mySpreadsheet, function(data) {
+    // build items object array
     $.each(data.feed.entry,function(key,val){
       var row = {};
 
@@ -133,6 +137,7 @@
     });
   });
 
+  // enable tooltips
   $('[data-toggle="tooltip"]').tooltip()
 })(jQuery);
 
@@ -140,33 +145,46 @@ function compareListUpdate() {
   // update num results label
   $('.num-results-label').html($('.facettotalcount').html() + " for:");
 
+  // clear items marked for comparison
   $('.compare-list-item').remove();
   $('input:checkbox[name=compare]').attr('checked', false);
 
+  // event listener for each checkbox toggle
   $('input[name=compare]').change(function () {
+    // list of checked boxes
     var checked_values = $('input[name=compare]:checked').map(function () {
       return this.value;
     }).get();
 
+    // limit number of compared to 3
     if(checked_values.length > 3) {
       alert("That's too many to compare at once. Feel free to remove one or more marked for comparison before adding another.");
+      // uncheck after notification
       $(this).attr('checked', false);
     }
     else {
+      // valid, not more than 3. was it checked or unchecked?
       if(this.checked) {
+        // checked. append a img to compare list
         $('#compare-list').append('<span class="compare-list-item" id="' + this.value + '"><img src="assets/images/default-product.png" width="30" height="30" class="img-thumbnail" /><a href="#" data-toggle="tooltip" data-placement="bottom" title="Remove ' + this.getAttribute('data-product-label') + ' from comparison" id="' + this.value + '">x</a></span>');
       }
       else {
+        // unchecked. remove image from compare list
         $('.compare-list-item#' + this.value).remove();
       }
     }
 
+    // event listener for each compare list item image click
     $('.compare-list-item a').click(function() {
+      // clicked, remove from list and uncheck it's checkbox counterpart
       this.parentElement.remove();
       $('input:checkbox[name=compare][value=' + this.id + ']').attr('checked', false);
     });
+
+    // ensure tooltips enabled on compare list items
     $('[data-toggle="tooltip"]').tooltip()
   });
 
+  // ensure tooltips still enabled after results update
   $('[data-toggle="tooltip"]').tooltip()
 }
