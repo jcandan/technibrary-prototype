@@ -145,6 +145,9 @@ function compareListUpdate() {
   // update num results label
   $('.num-results-label').html($('.facettotalcount').html() + " for:");
 
+  // scroll to top
+  $("html, body").animate({ scrollTop: 0 });
+
   // clear items marked for comparison
   $('.compare-list-item').remove();
   $('input:checkbox[name=compare]').attr('checked', false);
