@@ -150,6 +150,7 @@ function compareListUpdate() {
   $('input:checkbox[name=compare]').attr('checked', false);
 
   // event listener for each checkbox toggle
+  $('input[name=compare]').unbind('change');
   $('input[name=compare]').change(function () {
     // list of checked boxes
     var checked_values = $('input[name=compare]:checked').map(function () {
