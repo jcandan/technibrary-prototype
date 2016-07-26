@@ -137,6 +137,9 @@
 })(jQuery);
 
 function compareListUpdate() {
+  // update num results label
+  $('.num-results-label').html($('.facettotalcount').html() + " for:");
+
   $('.compare-list-item').remove();
   $('input:checkbox[name=compare]').attr('checked', false);
 
