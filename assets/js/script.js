@@ -46,7 +46,7 @@
               '<button type="button" class="btn btn-primary fa fa-heart" data-favorite="<%= obj.productid %>" data-toggle="tooltip" data-placement="bottom" title="Add to favorites"></button>' +
               '<button type="button" class="btn btn-primary fa fa-share" data-share="<%= obj.productid %>" data-toggle="tooltip" data-placement="bottom" title="Share with friends"></button>' +
               '</div>' +
-              "<img src='assets/images/default-product.png' width='100px' height='100px' class='img-thumbnail' /><br /><a href='#'><h3><%= item.productlabel %></h3></a>" +
+              "<img src='<% if(item.image) { %><%= item.image %><% } else { %>assets/images/default-product.png<% } %>' width='80%' class='img-thumbnail img-responsive' /><br /><a href='#'><h3><%= item.productlabel %></h3></a>" +
             "</th>" +
           "<% }); %>" +
         "</tr>" +
@@ -82,7 +82,7 @@
     '<div class="card">' +
     '<div class="card-container">' +
     '<div class="card-image col-sm-3">' +
-    '<img src="assets/images/default-product.png" width="100%" height="100%" class="img-thumbnail" />' +
+    '<img src="<% if(obj.image) { %><%= obj.image %><% } else { %>assets/images/default-product.png<% } %>" class="img-thumbnail img-responsive" />' +
     '</div>' +
     '<div class="card-content col-sm-7">' +
     '<div class="checkbox"><label><input type="checkbox" name="compare" value="<%= obj.productid %>" data-product-label="<%= obj.productlabel %>"/>Compare</label></div>' +
