@@ -19,6 +19,7 @@
     "bootstrap-sass": "^3.3.6",
     "font-awesome": "fontawesome#^4.6.3",
     "underscore": "~1.1.7",
-    "facetedsearch": "git@github.com:eikes/facetedsearch.git"
+    "facetedsearch": "git@github.com:eikes/facetedsearch.git",
+    "bootstrap-star-rating": "~4.0.1"
   }
 }
