@@ -183,6 +183,11 @@ function compareListUpdate() {
   // update num results label
   $('.num-results-label').html($('.facettotalcount').html() + " for:");
 
+  // rehash the star rating facet
+  $('.facetsearch#stars .facetitem').html(function() {
+    return this.innerHTML + ' stars';
+  });
+
   // scroll to top
   $("html, body").animate({ scrollTop: 0 });
 
