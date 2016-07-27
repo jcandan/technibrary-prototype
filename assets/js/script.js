@@ -84,7 +84,7 @@
     '<img src="<% if(obj.image) { %><%= obj.image %><% } else { %>assets/images/default-product.png<% } %>" class="img-thumbnail img-responsive" />' +
     '</div>' +
     '<div class="card-content col-sm-7">' +
-    '<div class="checkbox"><label><input type="checkbox" name="compare" value="<%= obj.productid %>" data-product-label="<%= obj.productlabel %>"/>Compare</label></div>' +
+    '<div class="checkbox"><label><input type="checkbox" name="compare" value="<%= obj.productid %>" data-product-label="<%= obj.productlabel %>" data-product-image="<%= obj.image %>" />Compare</label></div>' +
     '<a href="#"><h3 class="card-title"><%= obj.productlabel %></h3></a>' +
     '<div class="type"><%= obj.type %></div>' +
     '<input name="<%= obj.productid %>" id="<%= obj.productid %>" class="item-rating" value="<%= obj.stars %>" />' +
@@ -207,7 +207,7 @@ function compareListUpdate() {
       // valid, not more than 3. was it checked or unchecked?
       if(this.checked) {
         // checked. append a img to compare list
-        $('#compare-list').append('<span class="compare-list-item" id="' + this.value + '"><img src="assets/images/default-product.png" width="30" height="30" class="img-thumbnail" /><a href="#" data-toggle="tooltip" data-placement="bottom" title="Remove ' + this.getAttribute('data-product-label') + ' from comparison" id="' + this.value + '">x</a></span>');
+        $('#compare-list').append('<span class="compare-list-item" id="' + this.value + '"><img src="' + ((this.getAttribute('data-product-image')) ? this.getAttribute('data-product-image') : 'assets/images/default-product.png') + '" width="30" height="30" /><a href="#" data-toggle="tooltip" data-placement="bottom" title="Remove ' + this.getAttribute('data-product-label') + ' from comparison" id="' + this.value + '">x</a></span>');
       }
       else {
         // unchecked. remove image from compare list
