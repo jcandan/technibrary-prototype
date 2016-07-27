@@ -2,8 +2,7 @@
   var rating_settings = {
     min: 0,
     max: 5,
-    showCaption: false,
-    showClear: false,
+    displayOnly: true,
     size: 'xs',
     filledStar: '<i class="fa fa-star"></i>',
     emptyStar: '<i class="fa fa-star-o"></i>'
