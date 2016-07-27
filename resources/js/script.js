@@ -151,6 +151,7 @@
       facetTitleTemplate : '<h4 class="facettitle"><%= title %></h4>',
       facetListContainer : '<ol class="list-unstyled facetlist"></ol>',
       deselectTemplate   : '<a type="button" class="deselectstartover btn btn-primary">Deselect all filters</a>',
+      listItemTemplate   : '<div class=facetitem id="<%= id %>"><%= name %></div>',
       resultSelector  : '#results',
       facetSelector   : '#facets',
       resultTemplate  : item_template,
