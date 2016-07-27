@@ -12,7 +12,6 @@
   var labels = {
     "types": "Types",
     "stars": "User Rating",
-    "url": "Url",
     "price": "Price",
     "platforms": "Platforms",
     "usecase": "Use Case",
