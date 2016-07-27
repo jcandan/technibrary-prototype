@@ -159,6 +159,7 @@
     }
 
     $.facetelize(settings);
+    $('.bottomline').clone(true, true).prependTo($('#facets'));
 
     compareListUpdate();
 
@@ -178,7 +179,6 @@
 })(jQuery);
 
 function compareListUpdate() {
-  $('.bottomline').clone().prependTo($('#facets'));
 
   // update num results label
   $('.num-results-label').html($('.facettotalcount').html() + " for:");
