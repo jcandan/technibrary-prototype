@@ -1,4 +1,14 @@
 (function($){
+  var rating_settings = {
+    min: 0,
+    max: 5,
+    showCaption: false,
+    showClear: false,
+    size: 'xs',
+    filledStar: '<i class="fa fa-star"></i>',
+    emptyStar: '<i class="fa fa-star-o"></i>'
+  };
+
   var labels = {
     "types": "Types",
     "stars": "User Rating",
@@ -46,7 +56,11 @@
           "<tr>" +
             "<th scope='row' class='text-uppercase'><%= label %></th>" +
             "<% _.each(items, function(item){ %>" +
-              "<td><%= item[col] %></td>" +
+              "<% if(col == 'stars') { %>" +
+                "<td><input name='<%= item.productid %>' id='<%= item.productid %>' class='item-rating' value='<%= item.stars %>' /></td>" +
+              "<% } else { %>" +
+                "<td><%= item[col] %></td>" +
+              "<% } %>" +
             "<% }); %>" +
           "</tr>" +
         "<% }); %>" +
@@ -59,6 +73,9 @@
     "</table>";
 
     $(".modal-body").html(_.template(compared_tpl, {items: compared, labels: labels}));
+
+    // initialize rating
+    $('.item-rating').rating(rating_settings);
   });
 
   var item_template =
@@ -70,6 +87,8 @@
     '<div class="card-content col-sm-7">' +
     '<div class="checkbox"><label><input type="checkbox" name="compare" value="<%= obj.productid %>" data-product-label="<%= obj.productlabel %>"/>Compare</label></div>' +
     '<a href="#"><h3 class="card-title"><%= obj.productlabel %></h3></a>' +
+    '<div class="type"><%= obj.type %></div>' +
+    '<input name="<%= obj.productid %>" id="<%= obj.productid %>" class="item-rating" value="<%= obj.stars %>" />' +
     '<div class="pricing">' +
     '<span><%= obj.price %></span>' +
     '</div>' +
@@ -143,8 +162,14 @@
 
     compareListUpdate();
 
+    // initialize rating
+    $('.item-rating').rating(rating_settings);
+
     $(settings.resultSelector).bind("facetedsearchresultupdate", function(){
       compareListUpdate();
+
+      // initialize rating
+      $('.item-rating').rating(rating_settings);
     });
   });
 
