@@ -8087,10 +8087,16 @@ li a {
 #facets .orderby {
   display: none; }
 
+#facets .facetitem.activefacet {
+  font-weight: bold; }
+
+#facets .facetitem,
 #facets .deselectstartover {
   cursor: pointer;
   color: #009ECA; }
-  #facets .deselectstartover:hover, #facets .deselectstartover:focus {
+  #facets .facetitem:hover, #facets .facetitem:focus,
+  #facets .deselectstartover:hover,
+  #facets .deselectstartover:focus {
     text-decoration: underline; }
 
 .social-buttons {

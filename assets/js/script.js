@@ -151,7 +151,6 @@
       facetContainer     : '<div class=facetsearch id=<%= id %> ></div>',
       facetTitleTemplate : '<h4 class=facettitle><%= title %></h4>',
       facetListContainer : '<ol class="list-unstyled facetlist"></ol>',
-      listItemTemplate   : '<li><a class=facetitem id="<%= id %>"><%= name %> <span class=facetitemcount>(<%= count %>)</span></a></li>',
       resultSelector  : '#results',
       facetSelector   : '#facets',
       resultTemplate  : item_template,

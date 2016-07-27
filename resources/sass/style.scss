@@ -105,6 +105,10 @@ li a {
   .orderby {
     display: none;
   }
+  .facetitem.activefacet {
+    font-weight: bold;
+  }
+  .facetitem,
   .deselectstartover {
     cursor: pointer;
     color: #009ECA;
