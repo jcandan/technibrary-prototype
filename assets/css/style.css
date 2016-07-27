@@ -8020,6 +8020,17 @@ body {
 li a {
   cursor: pointer; }
 
+.table thead > tr > th {
+  vertical-align: top; }
+
+.table thead > tr > th,
+.table thead > tr > td,
+.table tbody > tr > th,
+.table tbody > tr > td,
+.table tfoot > tr > th,
+.table tfoot > tr > td {
+  padding: 24px; }
+
 .form-control:focus {
   border-color: #009ECA; }
 
