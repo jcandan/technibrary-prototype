@@ -18,7 +18,7 @@ gulp.task('icons', function() {
         .pipe(gulp.dest('./assets/fonts'));
 });
 
-gulp.task('css', function() {
+gulp.task('scss', function() {
     return gulp.src(config.sassPath + '/**/*.scss')
         .pipe(sass({
             style: 'compressed',
@@ -33,23 +33,34 @@ gulp.task('css', function() {
         .pipe(gulp.dest('./assets/css'));
 });
 
+gulp.task('starcss', function() {
+    return gulp.src(config.bowerDir + '/bootstrap-star-rating/css/star-rating.min.css')
+        .pipe(gulp.dest('./assets/css'));
+});
+
+gulp.task('starsvgcss', function() {
+    return gulp.src(config.bowerDir + '/bootstrap-star-rating/css/theme-krajee-svg.min.css')
+        .pipe(gulp.dest('./assets/css'));
+});
+
 gulp.task('js', function() {
     return gulp.src([
             'resources/js/*.js',
             config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.min.js',
             config.bowerDir + '/jquery/dist/jquery.min.js',
             config.bowerDir + '/underscore/underscore-min.js',
-            config.bowerDir + '/facetedsearch/facetedsearch.js'
+            config.bowerDir + '/facetedsearch/facetedsearch.js',
+            config.bowerDir + '/bootstrap-star-rating/js/star-rating.min.js'
         ])
         .pipe(gulp.dest('./assets/js'));
 });
 
 gulp.task('watch-css', function() {
-    gulp.watch(config.sassPath + '/**/*.scss', ['css'])
+    gulp.watch(config.sassPath + '/**/*.scss', ['scss'])
 });
 
 gulp.task('watch-js', function() {
     gulp.watch('resources/js/*.js', ['js'])
 });
 
-gulp.task('default', ['bower', 'icons', 'css', 'js', 'watch-css', 'watch-js']);
+gulp.task('default', ['bower', 'icons', 'scss', 'starsvgcss', 'starcss', 'js', 'watch-css', 'watch-js']);
