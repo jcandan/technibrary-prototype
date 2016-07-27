@@ -38,11 +38,6 @@ gulp.task('starcss', function() {
         .pipe(gulp.dest('./assets/css'));
 });
 
-gulp.task('starsvgcss', function() {
-    return gulp.src(config.bowerDir + '/bootstrap-star-rating/css/theme-krajee-svg.min.css')
-        .pipe(gulp.dest('./assets/css'));
-});
-
 gulp.task('js', function() {
     return gulp.src([
             'resources/js/*.js',
@@ -63,4 +58,4 @@ gulp.task('watch-js', function() {
     gulp.watch('resources/js/*.js', ['js'])
 });
 
-gulp.task('default', ['bower', 'icons', 'scss', 'starsvgcss', 'starcss', 'js', 'watch-css', 'watch-js']);
+gulp.task('default', ['bower', 'icons', 'scss', 'starcss', 'js', 'watch-css', 'watch-js']);
