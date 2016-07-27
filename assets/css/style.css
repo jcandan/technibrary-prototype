@@ -8020,6 +8020,9 @@ body {
 li a {
   cursor: pointer; }
 
+a.bg-primary:hover, a.bg-primary:focus {
+  color: #fff; }
+
 .table thead > tr > th {
   vertical-align: top; }
 
@@ -8084,19 +8087,17 @@ li a {
   border: 0;
   border-radius: 0; }
 
-#facets .orderby {
+#facets .orderby,
+#facets .facettotalcount {
   display: none; }
 
 #facets .facetitem.activefacet {
   font-weight: bold; }
 
-#facets .facetitem,
-#facets .deselectstartover {
+#facets .facetitem {
   cursor: pointer;
   color: #009ECA; }
-  #facets .facetitem:hover, #facets .facetitem:focus,
-  #facets .deselectstartover:hover,
-  #facets .deselectstartover:focus {
+  #facets .facetitem:hover, #facets .facetitem:focus {
     text-decoration: underline; }
 
 .social-buttons {

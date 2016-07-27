@@ -18,6 +18,13 @@ li a {
   cursor: pointer;
 }
 
+a.bg-primary {
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
+}
+
 .table {
   thead > tr > th {
     vertical-align: top;
@@ -102,14 +109,14 @@ li a {
 }
 
 #facets {
-  .orderby {
+  .orderby,
+  .facettotalcount {
     display: none;
   }
   .facetitem.activefacet {
     font-weight: bold;
   }
-  .facetitem,
-  .deselectstartover {
+  .facetitem {
     cursor: pointer;
     color: #009ECA;
     &:hover,

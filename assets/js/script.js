@@ -67,7 +67,7 @@
         "<tr>" +
           "<th scope='row' class='text-uppercase'>Learn more</th>" +
           "<% _.each(items, function(item){ %>" +
-            "<td>Want to learn more?<br/><a href='#' id='product-btn' class='btn bg-primary' type='button'>VIEW PRODUCT</a></td>" +
+            "<td>Want to learn more?<br/><a href='#' id='product-btn' class='btn btn-primary' type='button'>VIEW PRODUCT</a></td>" +
           "<% }); %>" +
       "</tbody>" +
     "</table>";
@@ -148,9 +148,10 @@
         'gradelevel'      : 'Grade Level',
         'stars'           : 'Rating'
       },
-      facetContainer     : '<div class=facetsearch id=<%= id %> ></div>',
-      facetTitleTemplate : '<h4 class=facettitle><%= title %></h4>',
+      facetContainer     : '<div class="facetsearch" id="<%= id %>"></div>',
+      facetTitleTemplate : '<h4 class="facettitle"><%= title %></h4>',
       facetListContainer : '<ol class="list-unstyled facetlist"></ol>',
+      deselectTemplate   : '<a type="button" class="deselectstartover btn btn-primary">Deselect all filters</a>',
       resultSelector  : '#results',
       facetSelector   : '#facets',
       resultTemplate  : item_template,
@@ -177,6 +178,8 @@
 })(jQuery);
 
 function compareListUpdate() {
+  $('.bottomline').clone().prependTo($('#facets'));
+
   // update num results label
   $('.num-results-label').html($('.facettotalcount').html() + " for:");
 
