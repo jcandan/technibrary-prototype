@@ -35,17 +35,18 @@
       return checked_values.indexOf(a.productid) > -1;
     })
 
-    var compared_tpl = "<table class='table table-bordered table-responsive'>" +
+    var compared_tpl = "<table class='table table-bordered table-striped table-responsive'>" +
       "<thead>" +
         "<tr>" +
-          "<th></th>" +
+          "<% var num_col = 12 / (items.length + 1); %>" +
+          "<th class='col-sm-<%= num_col %>'></th>" +
           "<% _.each(items, function(item) { %>" +
-            "<th>" +
+            "<th class='col-sm-<%= num_col %>'>" +
               '<div class="social-buttons">' +
               '<button type="button" class="btn btn-primary fa fa-heart" data-favorite="<%= obj.productid %>" data-toggle="tooltip" data-placement="bottom" title="Add to favorites"></button>' +
               '<button type="button" class="btn btn-primary fa fa-share" data-share="<%= obj.productid %>" data-toggle="tooltip" data-placement="bottom" title="Share with friends"></button>' +
               '</div>' +
-              "<img src='assets/images/default-product.png' width='100px' height='100px' class='img-thumbnail' /><br /><%= item.productlabel %>" +
+              "<img src='assets/images/default-product.png' width='100px' height='100px' class='img-thumbnail' /><br /><a href='#'><h3><%= item.productlabel %></h3></a>" +
             "</th>" +
           "<% }); %>" +
         "</tr>" +
